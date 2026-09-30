@@ -30,6 +30,7 @@ Separate retrieval paths for unstructured docs vs structured rows, fused at answ
 Third-party medical APIs
 Live sources like PubMed, DrugBank, RxNorm, clinical trial registries via API
 
+![alt text](image.png)
 
 
 
