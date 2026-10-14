@@ -12,7 +12,6 @@ Shiwin - Research about Lyme Disease
 Vinh - Research about Diabetes  
 Salvado - Research about Asthma  
 
-![alt text](image.png)
 
 
 
