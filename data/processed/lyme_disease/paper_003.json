@@ -1,0 +1,801 @@
+{
+  "paper_id": "paper_003",
+  "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
+  "authors": [
+    "Sanchez E",
+    "Vannier E",
+    "Wormser GP",
+    "Hu LT"
+  ],
+  "year": 2016,
+  "journal": "JAMA",
+  "doi": "10.1001/jama.2016.2884",
+  "pmcid": "PMC7758915",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
+  "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
+  "abstract": "Importance:: Lyme disease, human granulocytic anaplasmosis (HGA) and babesiosis are emerging tick-borne infections. Objective:: To provide an update on diagnosis, treatment, and prevention of these infections. Evidence Review:: We searched PUBMED and SCOPUS for articles on diagnosis, treatment and prevention of these infections published in English from January 2005 through December 2015. Findings:: Our search yielded 3550 articles for diagnosis and treatment and 752 articles for prevention. Of these articles, 361 were reviewed in depth. Evidence supports the use of FDA-approved serologic tests, such as an enzyme immunoassay (EIA), followed by western blot test(s), to diagnose extracutaneous manifestations of Lyme disease. Microscopy and polymerase chain reaction on blood specimens are used to diagnose active HGA and babesiosis. The efficacy of oral doxycycline, amoxicillin and cefuroxime axetil for treating Lyme disease has been established in multiple trials. Ceftriaxone is recommended when parenteral antibiotic therapy is warranted. Multiple trials have shown efficacy of a 10-day course of oral doxycycline for treatment of erythema migrans and of a 14-day course of oral doxycycline for treatment of early neurologic Lyme disease in ambulatory patients. Evidence indicates that a 10-day course of oral doxycycline is effective for HGA and that a 7-10 day course of azithromycin plus atovaquone is effective for mild babesiosis. Based on multiple case reports, a 7-10 day course of clindamycin plus quinine is often used to treat severe babesiosis. A recent study supports a minimum of 6 weeks of antibiotics for highly immunocompromised patients with babesiosis, with no parasites detected on blood smear for at least the final two weeks of treatment.. Conclusions and Relevance:: Evidence is evolving regarding the diagnosis, treatment and prevention of Lyme disease, HGA and babesiosis. Newer evidence supports treating patients with erythema migrans for no longer than 10 days when doxycycline is used, and for prescribing a 14-day course of oral doxycycline for early neurologic Lyme disease in ambulatory patients. The duration of antimicrobial therapy for babesiosis in highly immunocompromised patients should be extended to ≧6 weeks.",
+  "sections": [
+    {
+      "heading": "INTRODUCTION",
+      "parent": "",
+      "text": "The Ixodes scapularis tick is responsible for transmission of at least seven human pathogens in the U.S. (Figure 1). Three of these accounted for the majority of cases of Ixodes transmitted diseases in 2015 1: Borrelia burgdorferi, with ~34,000 confirmed and probable reported cases of Lyme disease; Anaplasma phagocytophilum, with ~2,600 reported cases of human granulocytic anaplasmosis (HGA); and Babesia microti, with ~ 1,700 reported cases of babesiosis. This review summarizes current evidence regarding the diagnosis, treatment and prevention of these three infections."
+    },
+    {
+      "heading": "METHODS",
+      "parent": "",
+      "text": "We searched PUBMED and SCOPUS for articles that were published in English from January 2005 through December 2015, and that pertained to the diagnosis, treatment or prevention of Lyme disease, HGA and babesiosis (Supplemental Figure 1). In doing so, we captured articles that were published shortly prior to, and since the Infectious Diseases Society of America (IDSA) guidelines report in November 2006 2. At least two authors reviewed abstracts of these publications. Any article selected by at least one author was reviewed in depth. Recommendations were based on the quality of the studies (randomized trials received the highest priority and case reports received the lowest priority) and the preponderance of evidence from multiple sources. Recommendations were independently graded by at least two authors using the American Heart Association scoring system 3 (Supplemental Table 1) and then reviewed and agreed upon by all authors. Any discrepancies in grading were resolved by discussion and majority opinion. Scores are reported as (Class-Level of Evidence)."
+    },
+    {
+      "heading": "RESULTS",
+      "parent": "",
+      "text": "The searches generated 3550 articles related to diagnosis and treatment and 752 articles related to prevention and control. Of these articles, 361 were selected for in depth review (Supplemental Figure 1)."
+    },
+    {
+      "heading": "Diagnosis",
+      "parent": "RESULTS",
+      "text": ""
+    },
+    {
+      "heading": "Lyme disease",
+      "parent": "Diagnosis",
+      "text": "The most common and earliest clinical manifestation of Lyme disease is a skin lesion called erythema migrans (EM) which is present in 70-80% of patients 4. EM typically occurs within 1-2 weeks following the tick bite. Other relatively common clinical features include: early neurologic Lyme disease (10-15%), particularly facial nerve palsy, lymphocytic meningitis and radiculopathy 5; myopericarditis (1-2%) typically presenting with varying degrees of heart block 6 (both cardiac and early neurologic Lyme disease usually occur within weeks to a couple of months after the tick bite); and Lyme arthritis (up to 30%), a migratory mono- or pauci-articular arthritis of large joints, which is the hallmark of late Lyme disease and occurs months (on average >6 months) following the tick bite 7. Diagnosis of Lyme disease is typically made by: (i) recognition of the EM skin lesion; and/or (ii) serologic testing to identify antibodies against B. burgdorferi antigens in patients with extracutaneous manifestations of Lyme disease such as those described above."
+    },
+    {
+      "heading": "Clinical diagnosis",
+      "parent": "Lyme disease",
+      "text": "Diagnosis of EM is made by visual inspection of an expanding, erythematous skin lesion, ≥5cm in diameter, that develops at the tick bite site (Figure 2). These lesions may be homogeneous in color or have either central clearing or a target-like appearance. Antibodies are not consistently detectable in patients with EM (<40% sensitivity) 8. The differential diagnosis of EM includes a number of skin conditions, such as tinea and nummular eczema 9. One condition that can be clinically indistinguishable is Southern Tick Associated Rash Illness (STARI), a disease of unknown etiology, which also follows a tick bite, but in this case the bite of the Amblyomma americanum tick 10 – 14. While there is overlap in the geographic distribution of STARI and Lyme disease, STARI cases are uncommon in most Lyme disease endemic areas. All patients diagnosed with EM in such areas should be presumed to have Lyme disease, unless there is definitive identification of A. americanum as the biting tick 15 – 19 (IIa-C). None of the extracutaneous manifestations is sufficiently specific for a definitive clinical diagnosis (IIa-C), unless there is a concomitant EM skin lesion."
+    },
+    {
+      "heading": "Laboratory testing",
+      "parent": "Lyme disease",
+      "text": ""
+    },
+    {
+      "heading": "Serologic testing.",
+      "parent": "Laboratory testing",
+      "text": "Serologic testing is the mainstay of laboratory diagnosis for patients with extracutaneous manifestations of Lyme disease (Table 1). Seropositivity in a patient for whom there are objective findings of extracutaneous Lyme disease is sufficient to make a presumptive diagnosis. Current recommendations are for “two-step testing” that typically consists of an enzyme immunoassay (EIA) followed, if the EIA is reactive, by western blot test(s) 2. Most EIAs use a whole cell sonicate (WCS) of B. burgdorferi as antigen. For patients with an illness of ≤ 4 weeks duration whose first step test EIA is reactive, separate IgM and IgG western blot tests are recommended as second step testing 2. If symptoms have been present for > 4 weeks, IgG western blot alone is recommended as it is highly sensitive for this duration of infection 2, 20 (I-B). To avoid loss of specificity, the following practices should be avoided (all III-B): using assays not approved by the FDA; omitting the first step assay; performing western blotting despite a negative first step test; and using IgM western blots to confirm the diagnosis in a patient with longstanding symptoms and a negative IgG western blot 21. In addition, use of unconventional criteria for western blot interpretation can substantively degrade the performance of these tests 22 (III-B). Serologic testing is highly sensitive for patients with neurologic or cardiac manifestations at time of presentation (≥80%) 23. If initial testing is negative but early neurologic or cardiac Lyme disease remains suspected, serologic testing should be repeated in 2-4 weeks (IIa-C). Attempts have been made to simplify and improve the accuracy of the two-step testing strategy, while also minimizing time and costs. For example, the use of “striped” western blots in which purified antigens are placed at defined locations on a strip ensures a greater standardization between test runs and allows objective quantification using densitometric scanning 24. Another approach has been to develop EIAs with fewer cross-reactive antigens. For example, the C6 peptide EIA, which uses a highly invariant region of the B. burgdorferi VlsE (V ariable major protein- l ike s equence, E xpressed) protein, has greater specificity than most WCS-based EIAs 25, 26. While use of C6 as a stand-alone test is not routinely recommended due to a small reduction in specificity compared with two-step testing 26, 27, C6 testing alone should be considered when patients are suspected to have acquired the disease in Europe. The rationale for this recommendation is that i) western blots designed for use in the U.S. have relatively poor sensitivity for European species of Lyme borrelia, and ii) the C6 epitope is conserved across different species and strains, making it a useful diagnostic antigen in Europe where the majority of cases of Lyme disease are caused by B. garinii and B. afzelii 28, 29 (IIa-B). PepC10, an invariant epitope of B. burgdorferi outer surface protein C, is another peptide antigen that has been FDA approved for diagnosing Lyme disease and shows increased sensitivity in early disease 30. Testing strategies that omit the IgM western blot are being developed to avoid its recognized potential for false positive test results 21. One approach is to incorporate the VlsE band into the IgG western blot, because IgG reactivity to this antigen is highly specific and often obtained in early infection 24. Another approach is to use an EIA with one or several highly specific antigens (e.g., C6 or VlsE/PepC10) as the second-step test instead of the western blot 31 – 33. In several studies, a WCS-based EIA followed by the C6 EIA has shown a specificity similar to that of traditional two-step testing (IIa-B) 31, 33. No serologic diagnostic approach is 100% specific, reinforcing current recommendations to not test patients with a low clinical pre-test probability of Lyme disease, such as patients who lack objective findings and have only non-specific symptoms such as fatigue (I-B) 2, 34, 35. Serological tests also have a poor predictive value in geographic areas with a low prevalence of disease 36."
+    },
+    {
+      "heading": "Laboratory testing other than serology.",
+      "parent": "Laboratory testing",
+      "text": "Central nervous system (CNS) involvement can be established by testing cerebrospinal fluid (CSF) for intrathecal borrelial antibody production and/or borrelial DNA, but these tests have variable or poor sensitivity such that their negative predictive value may be low (IIa-B) 37, 38. CXCL13 in CSF has been proposed as a marker of neurologic Lyme disease, but sensitivity (88-100%) and specificity (63-98%) are not consistently high enough to recommend its routine use for clinical diagnosis (IIb-B) 39 – 42. Another limiting factor of the CXCL13 assay is that CSF samples must be acquired before the start of antibiotic therapy. The most common application of PCR in Lyme disease diagnosis is for establishing a diagnosis of Lyme arthritis. PCR on synovial fluid has a >75% sensitivity in IgG seropositive patients with Lyme arthritis 43. Culture of borrelia species from blood, skin biopsies, CSF and synovial fluid is difficult and lacks adequate sensitivity 23. The following tests are not recommended for diagnosing Lyme disease: certain novel techniques to culture borrelia in blood 44, 45, CD57 cell numbers in blood 46, 47, borrelial antibody testing on CSF without correcting for passive diffusion of antibody present in blood 48, borrelia antibody testing on synovial fluid 49, tests of cellular immunity 50 and urine antigen testing (all III-B) 51."
+    },
+    {
+      "heading": "HGA",
+      "parent": "Diagnosis",
+      "text": "HGA occurs in all Lyme disease endemic areas in the U.S. and is caused by A. phagocytophilum, a rickettsial bacterium. The diagnosis of HGA should be considered for a patient with tick exposure in an endemic area who presents with unexplained nonspecific symptoms such as fever, chills, headache and myalgias, especially in the setting of abnormal laboratory features, which may include leukopenia, thrombocytopenia and/or mild elevation of liver enzymes 52 – 54. A. phagocytophilum infection can be diagnosed by microscopic identification of morulae in neutrophils on blood smear or in buffy coat (Figure 3), by PCR on blood, and by serologic testing (acute plus convalescent titers, as acute serology alone is too insensitive) (all I,B) (Table 1). Antibody titers typically reach at least 1:640 during acute infection 55. A recent study showed that both PCR and buffy coat examination for morulae have sensitivities in the range of 77-80% for patients who are culture positive for A. phagocytophilum. Culture is available only as a research tool 52."
+    },
+    {
+      "heading": "Babesiosis",
+      "parent": "Diagnosis",
+      "text": "Babesiosis, an infection caused by hemoprotozoan parasites of the genus Babesia, is prevalent in the Northeast and upper Midwest regions of the U.S. 56. In these regions, B. microti is the etiologic agent and has a narrower geographic range than B. burgdorferi 57. B. duncani has sporadically caused disease along the Pacific Coast (from northern CA to WA), whereas B. divergens -like organisms have been implicated in only three cases in the Midwest (KY, MO) and the Northwest (WA). Babesiosis is now a nationally reportable disease for 27 states. Most cases of babesiosis are tick transmitted; however, only B. microti is transmitted by I. scapularis 56. Cases of transfusion-transmitted babesiosis have increased in the past decade 58. Vertical transmission is also reported 59, 60. Babesiosis should be considered in a patient with tick exposure in an endemic area who presents with unexplained nonspecific symptoms such as fever, often in conjunction with fatigue, chills, sweats, headache, myalgia, arthralgia and/or anorexia, especially if laboratory features include thrombocytopenia, hemolytic anemia, and/or elevation of liver enzymes 2, 56. Diagnosis of active babesiosis is typically made by visualization of babesia parasites on Giemsa- or Wright-stained thin blood smears (Table 1) (Figure 4) (I-B) 2, 56. Thick blood smears are not recommended because B. microti and B. duncani parasites are small organisms (diameter <3 μm) that may be missed (III-C). Several real-time PCR assays are useful to detect low-grade B. microti parasitemia in human blood, and are more sensitive than blood smears. These assays have demonstrated high diagnostic sensitivity and specificity, do not amplify DNA from the Plasmodium spp. that cause human malaria, and are designed to avoid cross-reactivity with B. duncani 61 – 65. PCR should be considered early in the infection, when parasites are difficult to visualize on blood smears 56. PCR should be used with caution when monitoring the response to therapy because B. microti DNA can be detected for weeks to months after parasites are no longer visualized on blood smears (IIb-B) 63, 64, 66. Serology can be used to confirm the diagnosis of babesiosis (I-B) but cannot replace microscopy or PCR because i) babesia specific antibody may be absent or undetectable early in the course of illness and ii) antibody persists beyond resolution of infection 2, 56. Antibody is detected in serum using an indirect immunofluorescence assay (IFA), but other modalities of detection are under development 67, 68. A positive IgM titer is only suggestive of infection, and must be accompanied by a positive IgG titer 56. IgG titers to B microti of ≥1:1024 signify active or recent infection. The IFA should use antigens for the babesia species relevant to the geographic area of the patient because of lack of cross-reactivity 69, 70. The IFA that uses whole B. microti antigen has a 88-96% sensitivity and a 90-100% specificity 71. Cases of B. duncani infection have been too few to validate an IFA 70."
+    },
+    {
+      "heading": "Treatment",
+      "parent": "RESULTS",
+      "text": ""
+    },
+    {
+      "heading": "Lyme disease",
+      "parent": "Treatment",
+      "text": "Suggested treatments for adult patients in the U.S. who present with the most common objective clinical manifestations of Lyme disease are shown in Table 2. The first line antibiotics for treating Lyme disease are doxycycline, amoxicillin, and cefuroxime axetil orally and ceftriaxone intravenously (all I-A). Macrolides are considered second line agents (IIa-A) reserved for patients unable to tolerate beta-lactams and doxycycline, due to higher rates of treatment failure in some, but not all studies 2, 72 – 75. Older treatment trials employed a 20-day course of antibiotic therapy for EM 76, 77, but more recent studies provide evidence that a 10-day course of doxycycline is highly effective for EM and as effective as longer treatment durations (I-A) 16, 78, 79. There is now stronger evidence that oral doxycycline is effective treatment for Lyme meningitis, cranial neuropathy and radiculopathy 80 – 84. In a prospective, randomized, double-blind study, Ljostad et al. compared doxycycline 200 mg once daily orally with ceftriaxone 2 gms once daily intravenously for 14 days in 102 subjects from Norway with neurologic Lyme disease and found no treatment failure in either arm 80. The species of Lyme borrelia in Europe do not strictly overlap with the species found in the USA, but there are no data to suggest a differential response to antibiotics among Lyme borrelia species. Based on these studies, oral doxycycline at the dose of 200 mg daily for adults given for 14 days can be considered as first line therapy for neurologic Lyme disease in Europe (I-A) and for ambulatory patients with early neurologic Lyme disease in the USA (IIa-C) (Table 2). No new evidence was found to alter the existing antibiotic recommendations by the IDSA for treatment of other extracutaneous manifestations of Lyme disease 2."
+    },
+    {
+      "heading": "HGA",
+      "parent": "Treatment",
+      "text": "There is no new evidence to alter the existing IDSA recommendations for treatment of HGA 2. The IDSA guidelines state that all patients suspected of having HGA should receive empiric therapy with doxycycline for 10 days without the need for laboratory confirmation (I-B) (Table 3) 85. Response to doxycycline therapy for HGA is typically rapid and often seen after a single dose of antibiotic 86. Failure to improve within 48 hours of initiation of doxycycline therapy should raise concern that the patient does not have HGA or has a coinfection that is not responsive to doxycycline such as babesiosis. Doxycycline is not considered safe in pregnancy. In the case of life-threatening HGA, however, use of doxycycline may be warranted 87. A treatment shorter than 10 days may be reasonable depending on the clinical response, but systematic studies are lacking. There have been reports of successful use of rifampin in treating HGA in pregnant women and young children, but data are limited (IIb-C, Table 3) 88, 89."
+    },
+    {
+      "heading": "Babesiosis",
+      "parent": "Treatment",
+      "text": "Current guidelines recommend therapy for symptomatic patients only 2. Patients with mild to moderate babesiosis should be treated with a 7- to 10-day course of oral azithromycin combined with oral atovaquone (I-B) (Table 3). This recommendation is supported by data from a prospective, non-blinded, randomized trial in 58 patients with non-life threatening babesiosis caused by B. microti 90. In this trial, azithromycin plus atovaquone was not different from clindamycin plus quinine in resolving symptoms, but produced fewer side effects. In addition, clearance of parasite DNA in blood, an indirect measure of parasitemia, did not differ significantly between the two regimens 90. The IDSA guidelines for treating severe babesiosis recommend a 7- to 10-day course of intravenous clindamycin combined with oral quinine (I-C) 2. This recommendation is based on expert opinion as efficacy and benefit/risk ratio of this regimen have not been addressed in a clinical trial. Given that quinine therapy often is interrupted due to drug toxicity, consideration should be given to a regimen of intravenous azithromycin plus oral atovaquone when treating severe babesiosis in hospitalized patients (IIb-C). Some cases have been successfully treated with a combination of intravenous clindamycin and oral atovaquone 59, 91, 92, but the efficacy of this regimen, like most anti-babesia drug regimens, remains to be tested in a clinical trial (IIb-C). Persistent or relapsing babesiosis often occurs in highly immunocompromised individuals, particularly in patients with B cell lymphoma who are or were recently treated with rituximab 93 – 95. Other risk factors have not been clearly defined but appear to include HIV infection with low CD4 cell counts 93, 96 and immunosuppressive therapy for solid organ 94 or stem cell transplants 97. Evidence from a recent retrospective case-control study supports treating such highly immunocompromised patients for ≥6 weeks, with negative blood smears for ≥2 weeks prior to discontinuation (I-B) 93. Several antimicrobial regimens have been used, including two drug regimens such as azithromycin plus atovaquone or clindamycin plus atovaquone or three drug regimens such as atovaquone plus azithromycin plus clindamycin or atovaquone plus clindamycin plus artemisinin 93, 94, 98. Atovaquone/proguanil has been included in various drug regimens 94, 96 – 98. No particular anti-babesia drug regimen appears to be superior 93, but systematic studies are lacking. Reducing or discontinuing immunosuppressive therapy is desirable. Higher doses of oral azithromycin (from 600 to 1000 mg per day) should be considered for immunocompromised patients 99 (IIb-C), as several cases of antibiotic resistance have developed on lower dosages in such patients 94. Partial or complete red blood cell exchange transfusion should be considered for patients with high-grade parasitemia (≥10%), severe hemolysis, or pulmonary, renal or hepatic compromise (IIa-C) 2. However, there are no systematic studies on this therapeutic modality, nor are there data on the benefit and optimal use of red blood cell exchange versus whole blood or plasma exchange. A review of 24 cases of life-threatening babesiosis revealed that hemolysis is the most frequent indication for exchange transfusion in babesiosis 100. This series, although limited in size, suggested that i) early use of exchange transfusion may prevent organ dysfunction and possibly death, ii) a 90% reduction in parasitemia should be the minimally desired target of red blood cell exchange, and iii) this target can be achieved by exchanging with 2.5 times the patient red blood cell volume 100. Splenic infarct and splenic rupture may complicate the course of babesiosis 101. Such patients often experience low levels of parasitemia and do not present with any of the complications typically associated with severe babesiosis 102, 103. Non-surgical control of splenic rupture is preferred, particularly when the patient is at risk of renewed exposure to babesia species because splenectomy predisposes to severe babesiosis 101, 104."
+    },
+    {
+      "heading": "Co-infections",
+      "parent": "Treatment",
+      "text": "Co-infections that include Lyme disease plus either HGA or babesiosis have been well documented 57. The number of symptoms in patients with concurrent Lyme disease and babesiosis is greater than in patients with Lyme disease alone 105, 106. The same observation has been reported for Lyme disease and HGA in some studies but not all 106 – 108. Co-infection should be considered for Lyme disease patients with fever for more than 48 hours on antibiotic therapy or for those with unexplained leukopenia, thrombocytopenia and/or anemia. Doxycycline may be included empirically in the treatment regimen for babesiosis when Lyme disease or HGA co-infection is suspected. When a co-infection has been documented, patients should receive therapies appropriate for the treatment of each infection (I-C)."
+    },
+    {
+      "heading": "Other Ixodes -transmitted infections",
+      "parent": "RESULTS",
+      "text": "Borrelia miyamotoi, Borrelia mayonii, deer tick virus (DTV), and Ehrlichia muris -like agent are transmitted by the I. scapularis tick and are recognized as emerging human pathogens. B. miyamotoi is most closely related to relapsing fever borrelia and causes an undifferentiated febrile illness that may include findings of increased liver enzymes, leukopenia/thrombocytopenia, and in immunocompromised patients, chronic meningoencephalitis 109 – 113. B. miyamotoi can be diagnosed by detection of antibody to the GlpQ protein or PCR amplification of the glpQ gene, which is not present in B. burgdorferi 114 – 116. The first line antibiotics used to treat EM appear effective against B. miyamotoi 109, 114, but no systematic study has been carried out. A new Lyme borrelia, B. mayonii, has been reported in the Midwestern USA as causing a Lyme disease-like illness 117. Criteria for diagnosis and appropriate treatment are to be determined but are likely to be similar to those for B. burgdorferi. DTV is a discrete subtype of Powassan virus that can cause a severe meningoencephalitis, although there is likely a spectrum of severity from asymptomatic to severe 118. Diagnosis is made by serologic testing and/or PCR 119, 120. Treatment is supportive only. The E. muris -like agent has only been reported in Minnesota and Wisconsin 121. It also causes an undifferentiated febrile illness that can be associated with increased liver enzymes and cytopenias. Diagnosis is typically made by PCR on a blood specimen 120. Serology may cross react with E. chaffeensis but not A. phagocytophilum. Treatment with doxycycline appears to be effective 120. Diagnostic testing for each of these pathogens is performed by only a few specialized laboratories."
+    },
+    {
+      "heading": "Disease prevention",
+      "parent": "RESULTS",
+      "text": "There are no available human vaccines for Lyme disease, HGA or babesiosis. A single 200 mg prophylactic dose of doxycycline following a tick bite was 87% effective in preventing the development of EM at the bite site 122, but the confidence interval surrounding this efficacy rate was wide. Prophylaxis is only recommended when an Ixodes tick from a Lyme disease endemic area has been attached for ≥36 hrs and prophylaxis can be started within 72 hrs 2. The effect of single dose prophylaxis with doxycycline on other I. scapularis transmitted infections is unknown. Current recommendations to reduce risk of transmission include daily body checks for ticks, use of tick repellents containing DEET, use of clothing impregnated with acaricides such as permethrin and minimizing skin exposure to ticks 123. Bathing/showering within 2 hours of tick exposure helps prevent attachment of ticks and reduces the odds of contracting Lyme disease (OR=0.4), as does use of protective clothing (OR=0.6) 124. Tick checks and use of tick repellents have yielded inconsistent results 124, 125, but adherence to these measures was not assessed and failures may be due to lack of strict use of preventive measures during risky exposures. Placing clothes in a dryer for up to one hour effectively kills ticks 126, but has not been evaluated for reduction of Lyme disease cases. These interventions have minimal potential risks, so although they may have limited benefit, they can be recommended. Modifications of the home environment have not clearly been shown to affect transmission risk. Spraying of pesticides around the home effectively reduces tick populations but interestingly has not affected the incidence of Lyme disease 124, 127. This discrepancy may be due to risks of exposure away from home. Alternatively, the drop in tick numbers, while large, may need to be even larger to reduce risk of tick-borne diseases. Targeted application of acaricides to mice (Damminix) or deer (four poster device) has yielded mixed results 128 – 131 or, in the case of the four poster device, has raised concerns about the spread of other diseases such as chronic wasting disease in deer. Altering landscape features by removing leaf litter or having a barrier to adjacent wooded areas have not consistently reduced the incidence of Lyme disease 124."
+    },
+    {
+      "heading": "SUMMARY",
+      "parent": "",
+      "text": "A systematic review of peer-reviewed articles identified several refinements to the current practices in treating Lyme disease and babesiosis. Specifically, evidence supports using a 10-day course of therapy when oral doxycycline is prescribed to treat EM, using a 14-day course of oral doxycycline for treatment of early neurologic Lyme disease in ambulatory patients, and treating highly immunocompromised patients with babesiosis with a longer course (≥6 weeks) of antimicrobial therapy. Whether the current two-step serologic testing algorithm for Lyme disease should be modified deserves further investigation. Additional studies are needed in multiple critical areas including: tools to diagnose specific manifestations of Lyme disease (e.g., neurologic Lyme disease); tests to distinguish active from past infection in individuals seropositive for B. burgdorferi antibody; tests to screen the blood supply for babesia species; alternative therapies to doxycycline for treating HGA; and effective strategies to prevent tick-borne diseases including vaccine development."
+    },
+    {
+      "heading": "Supplementary Material",
+      "parent": "",
+      "text": ""
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "text": "anonymous. Notifiable diseases and mortality tables. MMWR Morb Mortal Wkly Rep. 2016; 64: ND-923 – ND-940.",
+      "doi": ""
+    },
+    {
+      "ref_id": "R2",
+      "text": "Wormser GP, Dattwyler RJ, Shapiro ED, The clinical assessment, treatment, and prevention of lyme disease, human granulocytic anaplasmosis, and babesiosis: clinical practice guidelines by the Infectious Diseases Society of America. Clin Infect Dis. 2006; 43 (9): 1089 – 1134.",
+      "doi": "10.1086/508667"
+    },
+    {
+      "ref_id": "R3",
+      "text": "Goff DC Jr., Lloyd-Jones DM, Bennett G, 2013 ACC/AHA guideline on the assessment of cardiovascular risk: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines. J Am Coll Cardiol. 2014; 63 (25 Pt B): 2935 – 2959.",
+      "doi": "10.1016/j.jacc.2013.11.005"
+    },
+    {
+      "ref_id": "R4",
+      "text": "Steere AC. Lyme disease. N Engl J Med. 2001; 345 (2): 115 – 125.",
+      "doi": "10.1056/NEJM200107123450207"
+    },
+    {
+      "ref_id": "R5",
+      "text": "Halperin JJ. Nervous system Lyme disease. Infect Dis Clin North Am. 2015; 29 (2): 241 – 253.",
+      "doi": "10.1016/j.idc.2015.02.002"
+    },
+    {
+      "ref_id": "R6",
+      "text": "Forrester JD, Meiman J, Mullins J, Notes from the field: update on Lyme carditis, groups at high risk, and frequency of associated sudden cardiac death--United States. MMWR Morb Mortal Wkly Rep. 2014; 63 (43): 982 – 983.",
+      "doi": ""
+    },
+    {
+      "ref_id": "R7",
+      "text": "Arvikar SL, Steere AC. Diagnosis and treatment of Lyme arthritis. Infect Dis Clin North Am. 2015; 29 (2): 269 – 280.",
+      "doi": "10.1016/j.idc.2015.02.004"
+    },
+    {
+      "ref_id": "R8",
+      "text": "Wormser GP, Nowakowski J, Nadelman RB, Visintainer P, Levin A, Aguero-Rosenfeld ME. Impact of clinical variables on Borrelia burgdorferi-specific antibody seropositivity in acute-phase sera from patients in North America with culture-confirmed early Lyme disease. Clin Vaccine Immunol. 2008; 15 (10): 1519 – 1522.",
+      "doi": "10.1128/CVI.00109-08"
+    },
+    {
+      "ref_id": "R9",
+      "text": "Tibbles CD, Edlow JA. Does this patient have erythema migrans? Jama. 2007; 297 (23): 2617 – 2627.",
+      "doi": "10.1001/jama.297.23.2617"
+    },
+    {
+      "ref_id": "R10",
+      "text": "Herman-Giddens ME. Southern Tick–Associated Rash Illness: Further Considerations. Clinical Infectious Diseases. 2012; 54 (6): 887 – 888.",
+      "doi": "10.1093/cid/cir1009"
+    },
+    {
+      "ref_id": "R11",
+      "text": "Blanton L, Keith B, Brzezinski W. Southern tick-associated rash illness: erythema migrans is not always Lyme disease. South Med J. 2008; 101 (7): 759 – 760.",
+      "doi": "10.1097/SMJ.0b013e31817a8b3f"
+    },
+    {
+      "ref_id": "R12",
+      "text": "Feder HM Jr., Hoss DM, Zemel L, Telford SR 3rd, Dias F, Wormser GP. Southern Tick-Associated Rash Illness (STARI) in the North: STARI following a tick bite in Long Island, New York. Clin Infect Dis. 2011; 53 (10): e142 – 146.",
+      "doi": "10.1093/cid/cir553"
+    },
+    {
+      "ref_id": "R13",
+      "text": "Kirkland KB, Klimko TB, Meriwether RA, Erythema migrans-like rash illness at a camp in North Carolina: a new tick-borne disease? Archives of internal medicine. 1997; 157 (22): 2635 – 2641.",
+      "doi": ""
+    },
+    {
+      "ref_id": "R14",
+      "text": "Wormser GP, Masters E, Liveris D, Microbiologic evaluation of patients from Missouri with erythema migrans. Clin Infect Dis. 2005; 40 (3): 423 – 428.",
+      "doi": "10.1086/427289"
+    },
+    {
+      "ref_id": "R15",
+      "text": "Nizic T, Velikanje E, Ruzic-Sabljic E, Arnez M. Solitary erythema migrans in children: comparison of treatment with clarithromycin and amoxicillin. Wien Klin Wochenschr. 2012; 124 (13–14): 427 – 433.",
+      "doi": "10.1007/s00508-012-0194-1"
+    },
+    {
+      "ref_id": "R16",
+      "text": "Stupica D, Lusa L, Ruzic-Sabljic E, Cerar T, Strle F. Treatment of erythema migrans with doxycycline for 10 days versus 15 days. Clin Infect Dis. 2012; 55 (3): 343 – 350.",
+      "doi": "10.1093/cid/cis402"
+    },
+    {
+      "ref_id": "R17",
+      "text": "Aucott J, Morrison C, Munoz B, Rowe PC, Schwarzwalder A, West SK. Diagnostic challenges of early Lyme disease: lessons from a community case series. BMC Infect Dis. 2009; 9: 79.",
+      "doi": "10.1186/1471-2334-9-79"
+    },
+    {
+      "ref_id": "R18",
+      "text": "Massarotti EM, Luger SW, Rahn DW, Treatment of early Lyme disease. Am J Med. 1992; 92 (4): 396 – 403.",
+      "doi": "10.1016/0002-9343(92)90270-l"
+    },
+    {
+      "ref_id": "R19",
+      "text": "Dattwyler RJ, Volkman DJ, Conaty SM, Platkin SP, Luft BJ. Amoxycillin plus probenecid versus doxycycline for treatment of erythema migrans borreliosis. Lancet. 1990; 336 (8728): 1404 – 1406.",
+      "doi": "10.1016/0140-6736(90)93103-v"
+    },
+    {
+      "ref_id": "R20",
+      "text": "Schriefer ME. Lyme Disease Diagnosis: Serology. Clin Lab Med. 2015; 35 (4): 797 – 814.",
+      "doi": "10.1016/j.cll.2015.08.001"
+    },
+    {
+      "ref_id": "R21",
+      "text": "Seriburi V, Ndukwe N, Chang Z, Cox ME, Wormser GP. High frequency of false positive IgM immunoblots for Borrelia burgdorferi in clinical practice. Clin Microbiol Infect. 2012; 18 (12): 1236 – 1240.",
+      "doi": "10.1111/j.1469-0691.2011.03749.x"
+    },
+    {
+      "ref_id": "R22",
+      "text": "Fallon BA, Pavlicova M, Coffino SW, Brenner C. A comparison of lyme disease serologic test results from 4 laboratories in patients with persistent symptoms after antibiotic treatment. Clin Infect Dis. 2014; 59 (12): 1705 – 1710.",
+      "doi": "10.1093/cid/ciu703"
+    },
+    {
+      "ref_id": "R23",
+      "text": "Aguero-Rosenfeld ME. Lyme disease: laboratory issues. Infect Dis Clin North Am. 2008; 22 (2): 301 – 313, vii.",
+      "doi": "10.1016/j.idc.2007.12.005"
+    },
+    {
+      "ref_id": "R24",
+      "text": "Branda JA, Aguero-Rosenfeld ME, Ferraro MJ, Johnson BJ, Wormser GP, Steere AC. 2-tiered antibody testing for early and late Lyme disease using only an immunoglobulin G blot with the addition of a VlsE band as the second-tier test. Clin Infect Dis. 2010; 50 (1): 20 – 26.",
+      "doi": "10.1086/648674"
+    },
+    {
+      "ref_id": "R25",
+      "text": "Bacon RM, Biggerstaff BJ, Schriefer ME, Serodiagnosis of Lyme disease by kinetic enzyme-linked immunosorbent assay using recombinant VlsE1 or peptide antigens of Borrelia burgdorferi compared with 2-tiered testing using whole-cell lysates. The Journal of infectious diseases. 2003; 187 (8): 1187 – 1199.",
+      "doi": "10.1086/374395"
+    },
+    {
+      "ref_id": "R26",
+      "text": "Wormser GP, Schriefer M, Aguero-Rosenfeld ME, Single-tier testing with the C6 peptide ELISA kit compared with two-tier testing for Lyme disease. Diagn Microbiol Infect Dis. 2013; 75 (1): 9 – 15.",
+      "doi": "10.1016/j.diagmicrobio.2012.09.003"
+    },
+    {
+      "ref_id": "R27",
+      "text": "Steere AC, McHugh G, Damle N, Sikand VK. Prospective study of serologic tests for lyme disease. Clin Infect Dis. 2008; 47 (2): 188 – 195.",
+      "doi": "10.1086/589242"
+    },
+    {
+      "ref_id": "R28",
+      "text": "Branda JA, Strle F, Strle K, Sikand N, Ferraro MJ, Steere AC. Performance of United States serologic assays in the diagnosis of Lyme borreliosis acquired in Europe. Clin Infect Dis. 2013; 57 (3): 333 – 340.",
+      "doi": "10.1093/cid/cit235"
+    },
+    {
+      "ref_id": "R29",
+      "text": "Wormser GP, Tang AT, Schimmoeller NR, Utility of serodiagnostics designed for use in the United States for detection of Lyme borreliosis acquired in Europe and vice versa. Med Microbiol Immunol. 2014; 203 (1): 65 – 71.",
+      "doi": "10.1007/s00430-013-0315-0"
+    },
+    {
+      "ref_id": "R30",
+      "text": "Mathiesen MJ, Christiansen M, Hansen K, Holm A, Asbrink E, Theisen M. Peptide-based OspC enzyme-linked immunosorbent assay for serodiagnosis of Lyme borreliosis. Journal of Clinical Microbiology. 1998; 36 (12): 3474 – 3479.",
+      "doi": "10.1128/jcm.36.12.3474-3479.1998"
+    },
+    {
+      "ref_id": "R31",
+      "text": "Branda JA, Linskey K, Kim YA, Steere AC, Ferraro MJ. Two-tiered antibody testing for Lyme disease with use of 2 enzyme immunoassays, a whole-cell sonicate enzyme immunoassay followed by a VlsE C6 peptide enzyme immunoassay. Clin Infect Dis. 2011; 53 (6): 541 – 547.",
+      "doi": "10.1093/cid/cir464"
+    },
+    {
+      "ref_id": "R32",
+      "text": "Porwancher RB, Hagerty CG, Fan J, Multiplex immunoassay for Lyme disease using VlsE1-IgG and pepC10-IgM antibodies: improving test performance through bioinformatics. Clin Vaccine Immunol. 2011; 18 (5): 851 – 859.",
+      "doi": "10.1128/CVI.00409-10"
+    },
+    {
+      "ref_id": "R33",
+      "text": "Wormser GP, Levin A, Soman S, Adenikinju O, Longo MV, Branda JA. Comparative cost-effectiveness of two-tiered testing strategies for serodiagnosis of lyme disease with noncutaneous manifestations. J Clin Microbiol. 2013; 51 (12): 4045 – 4049.",
+      "doi": "10.1128/JCM.01853-13"
+    },
+    {
+      "ref_id": "R34",
+      "text": "Lipsett SC, Pollock NR, Branda JA, The Positive Predictive Value of Lyme ELISA for the Diagnosis of Lyme Disease in Children. Pediatr Infect Dis J. 2015.",
+      "doi": "10.1097/INF.0000000000000858"
+    },
+    {
+      "ref_id": "R35",
+      "text": "Shapiro ED. Clinical practice. Lyme disease. N Engl J Med. 2014; 370 (18): 1724 – 1731.",
+      "doi": "10.1056/NEJMcp1314325"
+    },
+    {
+      "ref_id": "R36",
+      "text": "Lantos PM, Branda JA, Boggan JC, Poor Positive Predictive Value of Lyme Disease Serologic Testing in an Area of Low Disease Incidence. Clin Infect Dis. 2015; 61 (9): 1374 – 1380.",
+      "doi": "10.1093/cid/civ584"
+    },
+    {
+      "ref_id": "R37",
+      "text": "Avery RA, Frank G, Eppes SC. Diagnostic utility of Borrelia burgdorferi cerebrospinal fluid polymerase chain reaction in children with Lyme meningitis. Pediatr Infect Dis J. 2005; 24 (8): 705 – 708.",
+      "doi": "10.1097/01.inf.0000172903.14077.4c"
+    },
+    {
+      "ref_id": "R38",
+      "text": "Steere AC, Berardi VP, Weeks KE, Logigian EL, Ackermann R. Evaluation of the intrathecal antibody response to Borrelia burgdorferi as a diagnostic test for Lyme neuroborreliosis. The Journal of infectious diseases. 1990; 161 (6): 1203 – 1209.",
+      "doi": "10.1093/infdis/161.6.1203"
+    },
+    {
+      "ref_id": "R39",
+      "text": "Hytonen J, Kortela E, Waris M, Puustinen J, Salo J, Oksi J. CXCL13 and neopterin concentrations in cerebrospinal fluid of patients with Lyme neuroborreliosis and other diseases that cause neuroinflammation. Journal of neuroinflammation. 2014; 11: 103.",
+      "doi": "10.1186/1742-2094-11-103"
+    },
+    {
+      "ref_id": "R40",
+      "text": "Sillanpaa H, Skogman BH, Sarvas H, Seppala IJ, Lahdenne P. Cerebrospinal fluid chemokine CXCL13 in the diagnosis of neuroborreliosis in children. Scandinavian journal of infectious diseases. 2013; 45 (7): 526 – 530.",
+      "doi": "10.3109/00365548.2013.776700"
+    },
+    {
+      "ref_id": "R41",
+      "text": "Tjernberg I, Henningsson AJ, Eliasson I, Forsberg P, Ernerudh J. Diagnostic performance of cerebrospinal fluid chemokine CXCL13 and antibodies to the C6-peptide in Lyme neuroborreliosis. The Journal of infection. 2011; 62 (2): 149 – 158.",
+      "doi": "10.1016/j.jinf.2010.11.005"
+    },
+    {
+      "ref_id": "R42",
+      "text": "Ljostad U, Mygland A. CSF B--lymphocyte chemoattractant (CXCL13) in the early diagnosis of acute Lyme neuroborreliosis. Journal of neurology. 2008; 255 (5): 732 – 737.",
+      "doi": "10.1007/s00415-008-0785-y"
+    },
+    {
+      "ref_id": "R43",
+      "text": "Nocton JJ, Dressler F, Rutledge BJ, Rys PN, Persing DH, Steere AC. Detection of Borrelia burgdorferi DNA by polymerase chain reaction in synovial fluid from patients with Lyme arthritis. N Engl J Med. 1994; 330 (4): 229 – 234.",
+      "doi": "10.1056/NEJM199401273300401"
+    },
+    {
+      "ref_id": "R44",
+      "text": "Sapi E, Pabbati N, Datar A, Davies EM, Rattelle A, Kuo BA. Improved culture conditions for the growth and detection of Borrelia from human serum. Int J Med Sci. 2013; 10 (4): 362 – 376.",
+      "doi": "10.7150/ijms.5698"
+    },
+    {
+      "ref_id": "R45",
+      "text": "Johnson BJ, Pilgard MA, Russell TM. Assessment of new culture method for detection of Borrelia species from serum of lyme disease patients. J Clin Microbiol. 2014; 52 (3): 721 – 724.",
+      "doi": "10.1128/JCM.01674-13"
+    },
+    {
+      "ref_id": "R46",
+      "text": "Stricker RB, Winger EE. Natural killer cells in chronic Lyme disease. Clin Vaccine Immunol. 2009; 16 (11): 1704; author reply 1704-1706.",
+      "doi": "10.1128/CVI.00260-09"
+    },
+    {
+      "ref_id": "R47",
+      "text": "Marques A, Brown MR, Fleisher TA. Natural killer cell counts are not different between patients with post-Lyme disease syndrome and controls. Clin Vaccine Immunol. 2009; 16 (8): 1249 – 1250.",
+      "doi": "10.1128/CVI.00167-09"
+    },
+    {
+      "ref_id": "R48",
+      "text": "Halperin JJ. Nervous System Lyme Disease. Clin Lab Med. 2015; 35 (4): 779 – 795.",
+      "doi": "10.1016/j.cll.2015.07.002"
+    },
+    {
+      "ref_id": "R49",
+      "text": "Barclay SS, Melia MT, Auwaerter PG. Misdiagnosis of late-onset Lyme arthritis by inappropriate use of Borrelia burgdorferi immunoblot testing with synovial fluid. Clin Vaccine Immunol. 2012; 19 (11): 1806 – 1809.",
+      "doi": "10.1128/CVI.00383-12"
+    },
+    {
+      "ref_id": "R50",
+      "text": "Jin C, Roen DR, Lehmann PV, Kellermann GH. An Enhanced ELISPOT Assay for Sensitive Detection of Antigen-Specific T Cell Responses to Borrelia burgdorferi. Cells. 2013; 2 (3): 607 – 620.",
+      "doi": "10.3390/cells2030607"
+    },
+    {
+      "ref_id": "R51",
+      "text": "Klempner MS, Schmid CH, Hu L, Intralaboratory reliability of serologic and urine testing for Lyme disease. Am J Med. 2001; 110 (3): 217 – 219.",
+      "doi": "10.1016/s0002-9343(00)00701-4"
+    },
+    {
+      "ref_id": "R52",
+      "text": "Wormser GP, Aguero-Rosenfeld ME, Cox ME, Differences and similarities between culture-confirmed human granulocytic anaplasmosis and early lyme disease. J Clin Microbiol. 2013; 51 (3): 954 – 958.",
+      "doi": "10.1128/JCM.02929-12"
+    },
+    {
+      "ref_id": "R53",
+      "text": "Weil AA, Baron EL, Brown CM, Drapkin MS. Clinical findings and diagnosis in human granulocytic anaplasmosis: a case series from Massachusetts. Mayo Clinic proceedings. 2012; 87 (3): 233 – 239.",
+      "doi": "10.1016/j.mayocp.2011.09.008"
+    },
+    {
+      "ref_id": "R54",
+      "text": "Bakken JS, Aguero-Rosenfeld ME, Tilden RL, Serial measurements of hematologic counts during the active phase of human granulocytic ehrlichiosis. Clin Infect Dis. 2001; 32 (6): 862 – 870.",
+      "doi": "10.1086/319350"
+    },
+    {
+      "ref_id": "R55",
+      "text": "Aguero-Rosenfeld ME. Diagnosis of human granulocytic ehrlichiosis: state of the art. Vector borne and zoonotic diseases (Larchmont, N.Y.). 2002; 2 (4): 233 – 239.",
+      "doi": "10.1089/153036602321653815"
+    },
+    {
+      "ref_id": "R56",
+      "text": "Vannier E, Krause PJ. Human babesiosis. N Engl J Med. 2012; 366 (25): 2397 – 2407.",
+      "doi": "10.1056/NEJMra1202018"
+    },
+    {
+      "ref_id": "R57",
+      "text": "Diuk-Wasser MA, Vannier E, Krause PJ. Coinfection by Ixodes Tick-Borne Pathogens: Ecological, Epidemiological, and Clinical Consequences. Trends Parasitol. 2016; 32 (1): 30 – 42.",
+      "doi": "10.1016/j.pt.2015.09.008"
+    },
+    {
+      "ref_id": "R58",
+      "text": "Herwaldt BL, Linden JV, Bosserman E, Young C, Olkowska D, Wilson M. Transfusion-associated babesiosis in the United States: a description of cases. Ann Intern Med. 2011; 155 (8): 509 – 519.",
+      "doi": "10.7326/0003-4819-155-8-201110180-00362"
+    },
+    {
+      "ref_id": "R59",
+      "text": "Joseph JT, Purtill K, Wong SJ, Vertical transmission of Babesia microti, United States. Emerg Infect Dis. 2012; 18 (8): 1318 – 1321.",
+      "doi": "10.3201/eid1808.110988"
+    },
+    {
+      "ref_id": "R60",
+      "text": "Cornett JK, Malhotra A, Hart D. Vertical Transmission of Babesiosis From a Pregnant, Splenectomized Mother to Her Neonate. Infectious Diseases in Clinical Practice. 2012; 20: 408 – 410.",
+      "doi": ""
+    },
+    {
+      "ref_id": "R61",
+      "text": "Bloch EM, Lee TH, Krause PJ, Development of a real-time polymerase chain reaction assay for sensitive detection and quantitation of Babesia microti infection. Transfusion. 2013; 53 (10): 2299 – 2306.",
+      "doi": "10.1111/trf.12098"
+    },
+    {
+      "ref_id": "R62",
+      "text": "Rollend L, Bent SJ, Krause PJ, Quantitative PCR for detection of Babesia microti in Ixodes scapularis ticks and in human blood. Vector Borne Zoonotic Dis. 2013; 13 (11): 784 – 790.",
+      "doi": "10.1089/vbz.2011.0935"
+    },
+    {
+      "ref_id": "R63",
+      "text": "Teal AE, Habura A, Ennis J, Keithly JS, Madison-Antenucci S. A new real-time PCR assay for improved detection of the parasite Babesia microti. J Clin Microbiol. 2012; 50 (3): 903 – 908.",
+      "doi": "10.1128/JCM.05848-11"
+    },
+    {
+      "ref_id": "R64",
+      "text": "Wang G, Villafuerte P, Zhuge J, Visintainer P, Wormser GP. Comparison of a quantitative PCR assay with peripheral blood smear examination for detection and quantitation of Babesia microti infection in humans. Diagn Microbiol Infect Dis. 2015; 82 (2): 109 – 113.",
+      "doi": "10.1016/j.diagmicrobio.2015.03.010"
+    },
+    {
+      "ref_id": "R65",
+      "text": "Wang G, Wormser GP, Zhuge J, Utilization of a real-time PCR assay for diagnosis of Babesia microti infection in clinical practice. Ticks Tick Borne Dis. 2015; 6 (3): 376 – 382.",
+      "doi": "10.1016/j.ttbdis.2015.03.001"
+    },
+    {
+      "ref_id": "R66",
+      "text": "Krause PJ, Spielman A, Telford SR 3rd, Persistent parasitemia after acute babesiosis. N Engl J Med. 1998; 339 (3): 160 – 165.",
+      "doi": "10.1056/NEJM199807163390304"
+    },
+    {
+      "ref_id": "R67",
+      "text": "Priest JW, Moss DM, Won K, Multiplex assay detection of immunoglobulin G antibodies that recognize Babesia microti antigens. Clin Vaccine Immunol. 2012; 19 (9): 1539 – 1548.",
+      "doi": "10.1128/CVI.00313-12"
+    },
+    {
+      "ref_id": "R68",
+      "text": "Levin AE, Williamson PC, Erwin JL, Determination of Babesia microti seroprevalence in blood donor populations using an investigational enzyme immunoassay. Transfusion. 2014; 54 (9): 2237 – 2244.",
+      "doi": "10.1111/trf.12763"
+    },
+    {
+      "ref_id": "R69",
+      "text": "Persing DH, Herwaldt BL, Glaser C, Infection with a babesia-like organism in northern California. N Engl J Med. 1995; 332 (5): 298 – 303.",
+      "doi": "10.1056/NEJM199502023320504"
+    },
+    {
+      "ref_id": "R70",
+      "text": "Hunfeld KP, Hildebrandt A, Gray JS. Babesiosis: recent insights into an ancient disease. Int J Parasitol. 2008; 38 (11): 1219 – 1237.",
+      "doi": "10.1016/j.ijpara.2008.03.001"
+    },
+    {
+      "ref_id": "R71",
+      "text": "Krause PJ, Telford SR 3rd, Ryan R, Diagnosis of babesiosis: evaluation of a serologic test for the detection of Babesia microti antibody. The Journal of infectious diseases. 1994; 169 (4): 923 – 926.",
+      "doi": "10.1093/infdis/169.4.923"
+    },
+    {
+      "ref_id": "R72",
+      "text": "Luft BJ, Dattwyler RJ, Johnson RC, Azithromycin compared with amoxicillin in the treatment of erythema migrans. A double-blind, randomized, controlled trial. Ann Intern Med. 1996; 124 (9): 785 – 791.",
+      "doi": "10.7326/0003-4819-124-9-199605010-00002"
+    },
+    {
+      "ref_id": "R73",
+      "text": "Strle F, Maraspin V, Lotric-Furlan S, Ruzic-Sabljic E, Cimperman J. Azithromycin and doxycycline for treatment of Borrelia culture-positive erythema migrans. Infection. 1996; 24 (1): 64 – 68.",
+      "doi": "10.1007/BF01780661"
+    },
+    {
+      "ref_id": "R74",
+      "text": "Arnez M, Pleterski-Rigler D, Luznik-Bufon T, Ruzic-Sabljic E, Strle F. Solitary erythema migrans in children: comparison of treatment with azithromycin and phenoxymethylpenicillin. Wien Klin Wochenschr. 2002; 114 (13-14): 498 – 504.",
+      "doi": ""
+    },
+    {
+      "ref_id": "R75",
+      "text": "Arnez M, Ruzic-Sabljic E. Azithromycin is Equally Effective as Amoxicillin in Children with Solitary Erythema Migrans. Pediatr Infect Dis J. 2015.",
+      "doi": "10.1097/INF.0000000000000804"
+    },
+    {
+      "ref_id": "R76",
+      "text": "Nadelman RB, Luger SW, Frank E, Wisniewski M, Collins JJ, Wormser GP. Comparison of cefuroxime axetil and doxycycline in the treatment of early Lyme disease. Ann Intern Med. 1992; 117 (4): 273 – 280.",
+      "doi": "10.7326/0003-4819-117-4-273"
+    },
+    {
+      "ref_id": "R77",
+      "text": "Luger SW, Paparone P, Wormser GP, Comparison of cefuroxime axetil and doxycycline in treatment of patients with early Lyme disease associated with erythema migrans. Antimicrob Agents Chemother. 1995; 39 (3): 661 – 667.",
+      "doi": "10.1128/AAC.39.3.661"
+    },
+    {
+      "ref_id": "R78",
+      "text": "Kowalski TJ, Tata S, Berth W, Mathiason MA, Agger WA. Antibiotic treatment duration and long-term outcomes of patients with early lyme disease from a lyme disease-hyperendemic area. Clin Infect Dis. 2010; 50 (4): 512 – 520.",
+      "doi": "10.1086/649920"
+    },
+    {
+      "ref_id": "R79",
+      "text": "Wormser GP, Ramanathan R, Nowakowski J, Duration of antibiotic therapy for early Lyme disease. A randomized, double-blind, placebo-controlled trial. Ann Intern Med. 2003; 138 (9): 697 – 704.",
+      "doi": "10.7326/0003-4819-138-9-200305060-00005"
+    },
+    {
+      "ref_id": "R80",
+      "text": "Ljostad U, Skogvoll E, Eikeland R, Oral doxycycline versus intravenous ceftriaxone for European Lyme neuroborreliosis: a multicentre, non-inferiority, double-blind, randomised trial. The Lancet. Neurology. 2008; 7 (8): 690 – 695.",
+      "doi": "10.1016/S1474-4422(08)70119-4"
+    },
+    {
+      "ref_id": "R81",
+      "text": "Borg R, Dotevall L, Hagberg L, Intravenous ceftriaxone compared with oral doxycycline for the treatment of Lyme neuroborreliosis. Scandinavian journal of infectious diseases. 2005; 37 (6–7): 449 – 454.",
+      "doi": "10.1080/00365540510027228"
+    },
+    {
+      "ref_id": "R82",
+      "text": "Dotevall L, Hagberg L. Successful oral doxycycline treatment of Lyme disease-associated facial palsy and meningitis. Clin Infect Dis. 1999; 28 (3): 569 – 574.",
+      "doi": "10.1086/515145"
+    },
+    {
+      "ref_id": "R83",
+      "text": "Karlsson M, Hammers-Berggren S, Lindquist L, Stiernstedt G, Svenungsson B. Comparison of intravenous penicillin G and oral doxycycline for treatment of Lyme neuroborreliosis. Neurology. 1994; 44 (7): 1203 – 1207.",
+      "doi": "10.1212/wnl.44.7.1203"
+    },
+    {
+      "ref_id": "R84",
+      "text": "Bremell D, Dotevall L. Oral doxycycline for Lyme neuroborreliosis with symptoms of encephalitis, myelitis, vasculitis or intracranial hypertension. Eur J Neurol. 2014; 21 (9): 1162 – 1167.",
+      "doi": "10.1111/ene.12420"
+    },
+    {
+      "ref_id": "R85",
+      "text": "Hamburg BJ, Storch GA, Micek ST, Kollef MH. The importance of early treatment with doxycycline in human ehrlichiosis. Medicine. 2008; 87 (2): 53 – 60.",
+      "doi": "10.1097/MD.0b013e318168da1d"
+    },
+    {
+      "ref_id": "R86",
+      "text": "Bakken JS, Dumler S. Human granulocytic anaplasmosis. Infect Dis Clin North Am. 2008; 22 (3): 433 – 448, viii.",
+      "doi": "10.1016/j.idc.2008.03.011"
+    },
+    {
+      "ref_id": "R87",
+      "text": "Chapman AS, Bakken JS, Folk SM, Diagnosis and management of tickborne rickettsial diseases: Rocky Mountain spotted fever, ehrlichioses, and anaplasmosis--United States: a practical guide for physicians and other health-care and public health professionals. MMWR Recomm Rep. 2006; 55 (RR-4): 1 – 27.",
+      "doi": ""
+    },
+    {
+      "ref_id": "R88",
+      "text": "Buitrago MI, Ijdo JW, Rinaudo P, Human granulocytic ehrlichiosis during pregnancy treated successfully with rifampin. Clin Infect Dis. 1998; 27 (1): 213 – 215.",
+      "doi": "10.1086/517678"
+    },
+    {
+      "ref_id": "R89",
+      "text": "Krause PJ, Corrow CL, Bakken JS. Successful treatment of human granulocytic ehrlichiosis in children using rifampin. Pediatrics. 2003; 112 (3 Pt 1): e252 – 253.",
+      "doi": "10.1542/peds.112.3.e252"
+    },
+    {
+      "ref_id": "R90",
+      "text": "Krause PJ, Lepore T, Sikand VK, Atovaquone and azithromycin for the treatment of babesiosis. N Engl J Med. 2000; 343 (20): 1454 – 1458.",
+      "doi": "10.1056/NEJM200011163432004"
+    },
+    {
+      "ref_id": "R91",
+      "text": "Wittner M, Lederman J, Tanowitz HB, Rosenbaum GS, Weiss LM. Atovaquone in the treatment of Babesia microti infections in hamsters. Am J Trop Med Hyg. 1996; 55 (2): 219 – 222.",
+      "doi": "10.4269/ajtmh.1996.55.219"
+    },
+    {
+      "ref_id": "R92",
+      "text": "Shatzel JJ, Donohoe K, Chu NQ, Profound autoimmune hemolysis and Evans syndrome in two asplenic patients with babesiosis. Transfusion. 2015; 55 (3): 661 – 665.",
+      "doi": "10.1111/trf.12901"
+    },
+    {
+      "ref_id": "R93",
+      "text": "Krause PJ, Gewurz BE, Hill D, Persistent and relapsing babesiosis in immunocompromised patients. Clin Infect Dis. 2008; 46 (3): 370 – 376.",
+      "doi": "10.1086/525852"
+    },
+    {
+      "ref_id": "R94",
+      "text": "Wormser GP, Prasad A, Neuhaus E, Emergence of resistance to azithromycin-atovaquone in immunocompromised patients with Babesia microti infection. Clin Infect Dis. 2010; 50 (3): 381 – 386.",
+      "doi": "10.1086/649859"
+    },
+    {
+      "ref_id": "R95",
+      "text": "Haselbarth K, Tenter AM, Brade V, Krieger G, Hunfeld KP. First case of human babesiosis in Germany - Clinical presentation and molecular characterisation of the pathogen. Int J Med Microbiol. 2007; 297 (3): 197 – 204.",
+      "doi": "10.1016/j.ijmm.2007.01.002"
+    },
+    {
+      "ref_id": "R96",
+      "text": "Vyas JM, Telford SR, Robbins GK. Treatment of refractory Babesia microti infection with atovaquone-proguanil in an HIV-infected patient: case report. Clin Infect Dis. 2007; 45 (12): 1588 – 1590.",
+      "doi": "10.1086/523731"
+    },
+    {
+      "ref_id": "R97",
+      "text": "Lubin AS, Snydman DR, Miller KB. Persistent babesiosis in a stem cell transplant recipient. Leuk Res. 2011; 35 (6): e77 – 78.",
+      "doi": "10.1016/j.leukres.2010.11.029"
+    },
+    {
+      "ref_id": "R98",
+      "text": "Stowell CP, Gelfand JA, Shepard JA, Kratz A. Case records of the Massachusetts General Hospital. Case 17-2007. A 25-year-old woman with relapsing fevers and recent onset of dyspnea. N Engl J Med. 2007; 356 (22): 2313 – 2319.",
+      "doi": "10.1056/NEJMcpc079011"
+    },
+    {
+      "ref_id": "R99",
+      "text": "Weiss LM, Wittner M, Tanowitz HB. The treatment of babesiosis. N Engl J Med. 2001; 344 (10): 773.",
+      "doi": "10.1056/NEJM200103083441014"
+    },
+    {
+      "ref_id": "R100",
+      "text": "Spaete J, Patrozou E, Rich JD, Sweeney JD. Red cell exchange transfusion for babesiosis in Rhode Island. J Clin Apher. 2009; 24 (3): 97 – 105.",
+      "doi": "10.1002/jca.20197"
+    },
+    {
+      "ref_id": "R101",
+      "text": "El Khoury MY, Gandhi R, Dandache P, Lombardo G, Wormser GP. Non-surgical management of spontaneous splenic rupture due to Babesia microti infection. Ticks Tick Borne Dis. 2011; 2 (4): 235 – 238.",
+      "doi": "10.1016/j.ttbdis.2011.08.001"
+    },
+    {
+      "ref_id": "R102",
+      "text": "Farber FR, Muehlenbachs A, Robey TE. Atraumatic splenic rupture from Babesia: A disease of the otherwise healthy patient. Ticks Tick Borne Dis. 2015; 6 (5): 649 – 652.",
+      "doi": "10.1016/j.ttbdis.2015.05.010"
+    },
+    {
+      "ref_id": "R103",
+      "text": "Wormser GP, Lombardo G, Silverblatt F, Babesiosis as a cause of fever in patients undergoing a splenectomy. Am Surg. 2011; 77 (3): 345 – 347.",
+      "doi": ""
+    },
+    {
+      "ref_id": "R104",
+      "text": "Semel ME, Tavakkolizadeh A, Gates JD. Babesiosis in the immediate postoperative period after splenectomy for trauma. Surg Infect (Larchmt). 2009; 10 (6): 553 – 556.",
+      "doi": "10.1089/sur.2008.001"
+    },
+    {
+      "ref_id": "R105",
+      "text": "Krause PJ, Telford SR 3rd, Spielman A, Concurrent Lyme disease and babesiosis. Evidence for increased severity and duration of illness. Jama. 1996; 275 (21): 1657 – 1660.",
+      "doi": ""
+    },
+    {
+      "ref_id": "R106",
+      "text": "Krause PJ, McKay K, Thompson CA, Disease-specific diagnosis of coinfecting tickborne zoonoses: babesiosis, human granulocytic ehrlichiosis, and Lyme disease. Clin Infect Dis. 2002; 34 (9): 1184 – 1191.",
+      "doi": "10.1086/339813"
+    },
+    {
+      "ref_id": "R107",
+      "text": "Horowitz HW, Aguero-Rosenfeld ME, Holmgren D, Lyme disease and human granulocytic anaplasmosis coinfection: impact of case definition on coinfection rates and illness severity. Clin Infect Dis. 2013; 56 (1): 93 – 99.",
+      "doi": "10.1093/cid/cis852"
+    },
+    {
+      "ref_id": "R108",
+      "text": "Belongia EA, Reed KD, Mitchell PD, Clinical and epidemiological features of early Lyme disease and human granulocytic ehrlichiosis in Wisconsin. Clin Infect Dis. 1999; 29 (6): 1472 – 1477.",
+      "doi": "10.1086/313532"
+    },
+    {
+      "ref_id": "R109",
+      "text": "Platonov AE, Karan LS, Kolyasnikova NM, Humans infected with relapsing fever spirochete Borrelia miyamotoi, Russia. Emerg Infect Dis. 2011; 17 (10): 1816 – 1823.",
+      "doi": "10.3201/eid1710.101474"
+    },
+    {
+      "ref_id": "R110",
+      "text": "Gugliotta JL, Goethert HK, Berardi VP, Telford SR, 3rd. Meningoencephalitis from Borrelia miyamotoi in an immunocompromised patient. N Engl J Med. 2013; 368 (3): 240 – 245.",
+      "doi": "10.1056/NEJMoa1209039"
+    },
+    {
+      "ref_id": "R111",
+      "text": "Hovius JW, de Wever B, Sohne M, A case of meningoencephalitis by the relapsing fever spirochaete Borrelia miyamotoi in Europe. Lancet. 2013; 382 (9892): 658.",
+      "doi": "10.1016/S0140-6736(13)61644-X"
+    },
+    {
+      "ref_id": "R112",
+      "text": "Chowdri HR, Gugliotta JL, Berardi VP, Borrelia miyamotoi infection presenting as human granulocytic anaplasmosis: a case report. Ann Intern Med. 2013; 159 (1): 21 – 27.",
+      "doi": "10.7326/0003-4819-159-1-201307020-00005"
+    },
+    {
+      "ref_id": "R113",
+      "text": "Molloy PJ, Telford Iii SR, Chowdri HR, Borrelia miyamotoi Disease in the Northeastern United States: A Case Series. Ann Intern Med. 2015.",
+      "doi": "10.7326/M15-0333"
+    },
+    {
+      "ref_id": "R114",
+      "text": "Molloy PJ, Telford SR 3rd, Chowdri HR, Borrelia miyamotoi disease in the Northeastern United States: a case series. Ann Intern Med. 2015; 163 (2): 91 – 98.",
+      "doi": "10.7326/M15-0333"
+    },
+    {
+      "ref_id": "R115",
+      "text": "Krause PJ, Narasimhan S, Wormser GP, Human Borrelia miyamotoi infection in the United States. N Engl J Med. 2013; 368 (3): 291 – 293.",
+      "doi": "10.1056/NEJMc1215469"
+    },
+    {
+      "ref_id": "R116",
+      "text": "Krause PJ, Narasimhan S, Wormser GP, Borrelia miyamotoi sensu lato seroreactivity and seroprevalence in the northeastern United States. Emerg Infect Dis. 2014; 20 (7): 1183 – 1190.",
+      "doi": "10.3201/eid2007.131587"
+    },
+    {
+      "ref_id": "R117",
+      "text": "Pritt BS, Mead PS, Johnson DK, Identification of a novel pathogenic Borrelia species causing Lyme borreliosis with unusually high spirochaetaemia: a descriptive study. Lancet Infect Dis. 2016.",
+      "doi": "10.1016/S1473-3099(15)00464-8"
+    },
+    {
+      "ref_id": "R118",
+      "text": "Hinten SR, Beckett GA, Gensheimer KF, Increased recognition of Powassan encephalitis in the United States, 1999-2005. Vector Borne Zoonotic Dis. 2008; 8 (6): 733 – 740.",
+      "doi": "10.1089/vbz.2008.0022"
+    },
+    {
+      "ref_id": "R119",
+      "text": "El Khoury MY, Camargo JF, White JL, Potential Role of Deer Tick Virus in Powassan Encephalitis Cases in Lyme Disease-endemic Areas of New York, USA. Emerg Infect Dis. 2013; 19 (12).",
+      "doi": "10.3201/eid1912.130903"
+    },
+    {
+      "ref_id": "R120",
+      "text": "Wormser GP, Pritt B. Update and Commentary on Four Emerging Tick-Borne Infections: Ehrlichia muris-like Agent, Borrelia miyamotoi, Deer Tick Virus, Heartland Virus, and Whether Ticks Play a Role in Transmission of Bartonella henselae. Infect Dis Clin North Am. 2015; 29 (2): 371 – 381.",
+      "doi": "10.1016/j.idc.2015.02.009"
+    },
+    {
+      "ref_id": "R121",
+      "text": "Pritt BS, Sloan LM, Johnson DK, Emergence of a new pathogenic Ehrlichia species, Wisconsin and Minnesota, 2009. N Engl J Med. 2011; 365 (5): 422 – 429.",
+      "doi": "10.1056/NEJMoa1010493"
+    },
+    {
+      "ref_id": "R122",
+      "text": "Nadelman RB, Nowakowski J, Fish D, Prophylaxis with single-dose doxycycline for the prevention of Lyme disease after an Ixodes scapularis tick bite. N Engl J Med. 2001; 345 (2): 79 – 84.",
+      "doi": "10.1056/NEJM200107123450201"
+    },
+    {
+      "ref_id": "R123",
+      "text": "Preventing Tick Bites. 2015; http://www.cdc.gov/ticks/avoid/on_people.html, 2015.",
+      "doi": ""
+    },
+    {
+      "ref_id": "R124",
+      "text": "Connally NP, Durante AJ, Yousey-Hindes KM, Meek JI, Nelson RS, Heimer R. Peridomestic Lyme disease prevention: results of a population-based case-control study. Am J Prev Med. 2009; 37 (3): 201 – 206.",
+      "doi": "10.1016/j.amepre.2009.04.026"
+    },
+    {
+      "ref_id": "R125",
+      "text": "Vazquez M, Muehlenbein C, Cartter M, Hayes EB, Ertel S, Shapiro ED. Effectiveness of personal protective measures to prevent Lyme disease. Emerg Infect Dis. 2008; 14 (2): 210 – 216.",
+      "doi": "10.3201/eid1402.070725"
+    },
+    {
+      "ref_id": "R126",
+      "text": "Carroll JF. A cautionary note: survival of nymphs of two species of ticks (Acari: Ixodidae) among clothes laundered in an automatic washer. J Med Entomol. 2003; 40 (5): 732 – 736.",
+      "doi": "10.1603/0022-2585-40.5.732"
+    },
+    {
+      "ref_id": "R127",
+      "text": "Hinckley AF, Meek JI, Ray JA, Effectiveness of Residential Acaricides to Prevent Lyme and Other Tickborne Diseases in Humans. The Journal of infectious diseases. 2016.",
+      "doi": "10.1093/infdis/jiv775"
+    },
+    {
+      "ref_id": "R128",
+      "text": "Grear JS, Koethe R, Hoskins B, Hillger R, Dapsis L, Pongsiri M. The effectiveness of permethrin-treated deer stations for control of the Lyme disease vector Ixodes scapularis on Cape Cod and the islands: a five-year experiment. Parasit Vectors. 2014; 7: 292.",
+      "doi": "10.1186/1756-3305-7-292"
+    },
+    {
+      "ref_id": "R129",
+      "text": "Solberg VB, Miller JA, Hadfield T, Burge R, Schech JM, Pound JM. Control of Ixodes scapularis (Acari: Ixodidae) with topical self-application of permethrin by white-tailed deer inhabiting NASA, Beltsville, Maryland. J Vector Ecol. 2003; 28 (1): 117 – 134.",
+      "doi": ""
+    },
+    {
+      "ref_id": "R130",
+      "text": "Deblinger RD, Rimmer DW. Efficacy of a permethrin-based acaricide to reduce the abundance of Ixodes dammini (Acari: Ixodidae). J Med Entomol. 1991; 28 (5): 708 – 711.",
+      "doi": "10.1093/jmedent/28.5.708"
+    },
+    {
+      "ref_id": "R131",
+      "text": "Stafford KC 3rd. Effectiveness of host-targeted permethrin in the control of Ixodes dammini (Acari: Ixodidae). J Med Entomol. 1991; 28 (5): 611 – 617.",
+      "doi": "10.1093/jmedent/28.5.611"
+    },
+    {
+      "ref_id": "R132",
+      "text": "Johnson BJB. Laboratory diagnositic testing for Borrelia burgdorferi infection In: Halperin JJ, ed. Lyme Disease: an evidence based approach. Cambridge, MA: CABI; 2011: 73 – 88.",
+      "doi": ""
+    },
+    {
+      "ref_id": "R133",
+      "text": "Vannier EG, Diuk-Wasser MA, Ben Mamoun C, Krause PJ. Babesiosis. Infect Dis Clin North Am. 2015; 29 (2): 357 – 370.",
+      "doi": "10.1016/j.idc.2015.02.008"
+    },
+    {
+      "ref_id": "R134",
+      "text": "Herwaldt BL, Springs FE, Roberts PP, Babesiosis in Wisconsin: a potentially fatal disease. Am J Trop Med Hyg. 1995; 53 (2): 146 – 151.",
+      "doi": "10.4269/ajtmh.1995.53.146"
+    },
+    {
+      "ref_id": "R135",
+      "text": "Wroblewski HA, Kovacs RJ, Kingery JR, Overholser BR, Tisdale JE. High risk of QT interval prolongation and torsades de pointes associated with intravenous quinidine used for treatment of resistant malaria or babesiosis. Antimicrob Agents Chemother. 2012; 56 (8): 4495 – 4499.",
+      "doi": "10.1128/AAC.06396-11"
+    },
+    {
+      "ref_id": "R136",
+      "text": "Ray WA, Murray KT, Hall K, Arbogast PG, Stein CM. Azithromycin and the risk of cardiovascular death. N Engl J Med. 2012; 366 (20): 1881 – 1890.",
+      "doi": "10.1056/NEJMoa1003833"
+    }
+  ]
+}
