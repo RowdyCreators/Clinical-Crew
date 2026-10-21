@@ -343,9 +343,38 @@ class Parser:
         return refs
 
 
+def run_all_diseases(only: Optional[list[str]] = None,
+                     raw_subfolder: str = "data/raw",
+                     processed_subfolder: str = "data/processed") -> dict[str, list[Path]]:
+    """Parse every disease folder under data/raw/ into data/processed/<disease>/.
+    Pass `only` (folder names) to limit it to specific diseases."""
+    raw_root = PROJECT_DIR / raw_subfolder
+    folders = sorted(p for p in raw_root.iterdir() if p.is_dir())
+    if only:
+        wanted = set(only)
+        missing = wanted - {f.name for f in folders}
+        for name in sorted(missing):
+            print(f"[skip] {name}: no such folder in {raw_root}", file=sys.stderr)
+        folders = [f for f in folders if f.name in wanted]
+
+    results: dict[str, list[Path]] = {}
+    for folder in folders:
+        parser = Parser(xml_subfolder=f"{raw_subfolder}/{folder.name}",
+                        output_subfolder=f"{processed_subfolder}/{folder.name}")
+        try:
+            files = parser.run()
+        except FileNotFoundError:
+            print(f"[skip] {folder.name}: no XML files", file=sys.stderr)
+            continue
+        results[folder.name] = files
+        print(f"{folder.name}: wrote {len(files)} JSON files"
+              + (f" ({len(parser.skipped)} skipped)" if parser.skipped else ""))
+    print(f"Done: {sum(len(v) for v in results.values())} papers "
+          f"across {len(results)} disease folder(s).")
+    return results
+
+
 if __name__ == "__main__":
-    parser = Parser(xml_subfolder="data/raw/lyme_disease",
-                    output_subfolder="data/processed/lyme_disease")
-    files = parser.run()
-    print(f"Wrote {len(files)} JSON files to {parser.output_dir}"
-          + (f" ({len(parser.skipped)} skipped)" if parser.skipped else ""))
+    # python parse_papers.py                    -> every folder in data/raw/
+    # python parse_papers.py lyme_disease asthma -> just those folders
+    run_all_diseases(only=sys.argv[1:] or None)
