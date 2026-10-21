@@ -5,10 +5,15 @@ Usage:
     python parse_papers.py
 
     from parse_papers import Parser
-    parser = Parser()                 # or Parser(xml_subfolder="papers_xml")
+    parser = Parser(xml_subfolder="data/raw/lyme_disease")
     papers = parser.parse_all()       # list of paper dicts, nothing written
-    parser.save(papers)               # -> json_papers/paper_001.json, ...
+    parser.save(papers)               # -> lyme_disease_001.json, lyme_disease_002.json, ...
     parser.run()                      # parse_all() + save() in one call
+
+Paper IDs (and JSON file names) are named after the folder the XML files live
+in: data/raw/lyme_disease -> lyme_disease_001, lyme_disease_002, ...
+Pass id_prefix="..." to override. If the XML files sit directly in the project
+root, the prefix falls back to "paper".
 
 Input is always inside the project root, ClinicalClub/ (this file lives in
 ClinicalClub/Backend/src, so the root is two folders up). Standard library only, so nothing to compile or install.
@@ -54,6 +59,11 @@ def _initials(given: Optional[str]) -> str:
     return "".join(p[0].upper() for p in re.split(r"[\s\-.]+", given) if p)
 
 
+def _slug(name: str) -> str:
+    """'Lyme Disease' -> 'lyme_disease'; safe for use in IDs and file names."""
+    return re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")
+
+
 def _strip_namespaces(root: ET.Element) -> ET.Element:
     """Drop namespace prefixes from tags and attributes ({ns}href -> href).
     PMC's OAI service wraps articles in a default namespace; this makes
@@ -87,12 +97,16 @@ class Parser:
     ]
 
     def __init__(self, xml_subfolder: str = "", output_subfolder: str = "json_papers",
-                 project_dir: Path = PROJECT_DIR):
+                 project_dir: Path = PROJECT_DIR, id_prefix: Optional[str] = None):
         self.project_dir = Path(project_dir).resolve()
         self.xml_dir = (self.project_dir / xml_subfolder).resolve()
         self.output_dir = (self.project_dir / output_subfolder).resolve()
         if not self.xml_dir.is_relative_to(self.project_dir):
             raise ValueError(f"xml_subfolder must be inside {self.project_dir}")
+        # IDs are named after the XML folder (lyme_disease -> lyme_disease_001)
+        # unless a prefix is given; XML in the project root falls back to "paper".
+        default = self.xml_dir.name if self.xml_dir != self.project_dir else "paper"
+        self.id_prefix = _slug(id_prefix or default) or "paper"
         self.skipped: list[tuple[str, str]] = []   # (filename, reason) from the last parse_all()
 
     # ------------------------------------------------------------ public API
@@ -139,14 +153,16 @@ class Parser:
 
     def parse_all(self) -> list[dict]:
         """Parse every project XML file. Files that aren't valid papers are
-        skipped and recorded in self.skipped; paper_ids have no gaps."""
+        skipped and recorded in self.skipped; paper_ids have no gaps and are
+        named after the XML folder (e.g. lyme_disease_001)."""
         files = self.xml_files()
         if not files:
             raise FileNotFoundError(f"No .xml files found in {self.xml_dir}")
         papers, self.skipped = [], []
         for f in files:
             try:
-                papers.append(self.parse_file(f.name, paper_id=f"paper_{len(papers) + 1:03d}"))
+                paper_id = f"{self.id_prefix}_{len(papers) + 1:03d}"
+                papers.append(self.parse_file(f.name, paper_id=paper_id))
             except (ET.ParseError, ValueError) as e:
                 self.skipped.append((f.name, str(e)))
                 print(f"[skip] {f.name}: {e}", file=sys.stderr)
