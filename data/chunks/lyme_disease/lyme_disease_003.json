@@ -1,8 +1,8 @@
 [
   {
-    "chunk_id": "paper_003_c1",
+    "chunk_id": "lyme_disease_003_c1",
     "text": "Importance:: Lyme disease, human granulocytic anaplasmosis (HGA) and babesiosis are emerging tick-borne infections. Objective:: To provide an update on diagnosis, treatment, and prevention of these infections. Evidence Review:: We searched PUBMED and SCOPUS for articles on diagnosis, treatment and prevention of these infections published in English from January 2005 through December 2015. Findings:: Our search yielded 3550 articles for diagnosis and treatment and 752 articles for prevention. Of these articles, 361 were reviewed in depth. Evidence supports the use of FDA-approved serologic tests, such as an enzyme immunoassay (EIA), followed by western blot test(s), to diagnose extracutaneous manifestations of Lyme disease. Microscopy and polymerase chain reaction on blood specimens are used to diagnose active HGA and babesiosis. The efficacy of oral doxycycline, amoxicillin and cefuroxime axetil for treating Lyme disease has been established in multiple trials. Ceftriaxone is recommended when parenteral antibiotic therapy is warranted. Multiple trials have shown efficacy of a 10-day course of oral doxycycline for treatment of erythema migrans and of a 14-day course of oral doxycycline for treatment of early neurologic Lyme disease in ambulatory patients.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -15,14 +15,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Abstract",
     "parent": ""
   },
   {
-    "chunk_id": "paper_003_c2",
+    "chunk_id": "lyme_disease_003_c2",
     "text": "Evidence indicates that a 10-day course of oral doxycycline is effective for HGA and that a 7-10 day course of azithromycin plus atovaquone is effective for mild babesiosis. Based on multiple case reports, a 7-10 day course of clindamycin plus quinine is often used to treat severe babesiosis. A recent study supports a minimum of 6 weeks of antibiotics for highly immunocompromised patients with babesiosis, with no parasites detected on blood smear for at least the final two weeks of treatment.. Conclusions and Relevance:: Evidence is evolving regarding the diagnosis, treatment and prevention of Lyme disease, HGA and babesiosis. Newer evidence supports treating patients with erythema migrans for no longer than 10 days when doxycycline is used, and for prescribing a 14-day course of oral doxycycline for early neurologic Lyme disease in ambulatory patients. The duration of antimicrobial therapy for babesiosis in highly immunocompromised patients should be extended to ≧6 weeks.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -35,14 +35,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Abstract",
     "parent": ""
   },
   {
-    "chunk_id": "paper_003_c3",
+    "chunk_id": "lyme_disease_003_c3",
     "text": "The Ixodes scapularis tick is responsible for transmission of at least seven human pathogens in the U.S. (Figure 1). Three of these accounted for the majority of cases of Ixodes transmitted diseases in 2015 1: Borrelia burgdorferi, with ~34,000 confirmed and probable reported cases of Lyme disease; Anaplasma phagocytophilum, with ~2,600 reported cases of human granulocytic anaplasmosis (HGA); and Babesia microti, with ~ 1,700 reported cases of babesiosis. This review summarizes current evidence regarding the diagnosis, treatment and prevention of these three infections.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -55,14 +55,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "INTRODUCTION",
     "parent": ""
   },
   {
-    "chunk_id": "paper_003_c4",
+    "chunk_id": "lyme_disease_003_c4",
     "text": "We searched PUBMED and SCOPUS for articles that were published in English from January 2005 through December 2015, and that pertained to the diagnosis, treatment or prevention of Lyme disease, HGA and babesiosis (Supplemental Figure 1). In doing so, we captured articles that were published shortly prior to, and since the Infectious Diseases Society of America (IDSA) guidelines report in November 2006 2. At least two authors reviewed abstracts of these publications. Any article selected by at least one author was reviewed in depth. Recommendations were based on the quality of the studies (randomized trials received the highest priority and case reports received the lowest priority) and the preponderance of evidence from multiple sources. Recommendations were independently graded by at least two authors using the American Heart Association scoring system 3 (Supplemental Table 1) and then reviewed and agreed upon by all authors. Any discrepancies in grading were resolved by discussion and majority opinion. Scores are reported as (Class-Level of Evidence).",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -75,14 +75,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "METHODS",
     "parent": ""
   },
   {
-    "chunk_id": "paper_003_c5",
+    "chunk_id": "lyme_disease_003_c5",
     "text": "The searches generated 3550 articles related to diagnosis and treatment and 752 articles related to prevention and control. Of these articles, 361 were selected for in depth review (Supplemental Figure 1).",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -95,14 +95,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "RESULTS",
     "parent": ""
   },
   {
-    "chunk_id": "paper_003_c6",
+    "chunk_id": "lyme_disease_003_c6",
     "text": "The most common and earliest clinical manifestation of Lyme disease is a skin lesion called erythema migrans (EM) which is present in 70-80% of patients 4. EM typically occurs within 1-2 weeks following the tick bite. Other relatively common clinical features include: early neurologic Lyme disease (10-15%), particularly facial nerve palsy, lymphocytic meningitis and radiculopathy 5; myopericarditis (1-2%) typically presenting with varying degrees of heart block 6 (both cardiac and early neurologic Lyme disease usually occur within weeks to a couple of months after the tick bite); and Lyme arthritis (up to 30%), a migratory mono- or pauci-articular arthritis of large joints, which is the hallmark of late Lyme disease and occurs months (on average >6 months) following the tick bite 7. Diagnosis of Lyme disease is typically made by: (i) recognition of the EM skin lesion; and/or (ii) serologic testing to identify antibodies against B. burgdorferi antigens in patients with extracutaneous manifestations of Lyme disease such as those described above.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -115,14 +115,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Lyme disease",
     "parent": "Diagnosis"
   },
   {
-    "chunk_id": "paper_003_c7",
+    "chunk_id": "lyme_disease_003_c7",
     "text": "Diagnosis of EM is made by visual inspection of an expanding, erythematous skin lesion, ≥5cm in diameter, that develops at the tick bite site (Figure 2). These lesions may be homogeneous in color or have either central clearing or a target-like appearance. Antibodies are not consistently detectable in patients with EM (<40% sensitivity) 8. The differential diagnosis of EM includes a number of skin conditions, such as tinea and nummular eczema 9. One condition that can be clinically indistinguishable is Southern Tick Associated Rash Illness (STARI), a disease of unknown etiology, which also follows a tick bite, but in this case the bite of the Amblyomma americanum tick 10 – 14. While there is overlap in the geographic distribution of STARI and Lyme disease, STARI cases are uncommon in most Lyme disease endemic areas. All patients diagnosed with EM in such areas should be presumed to have Lyme disease, unless there is definitive identification of A. americanum as the biting tick 15 – 19 (IIa-C). None of the extracutaneous manifestations is sufficiently specific for a definitive clinical diagnosis (IIa-C), unless there is a concomitant EM skin lesion.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -135,14 +135,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Clinical diagnosis",
     "parent": "Lyme disease"
   },
   {
-    "chunk_id": "paper_003_c8",
+    "chunk_id": "lyme_disease_003_c8",
     "text": "Serologic testing is the mainstay of laboratory diagnosis for patients with extracutaneous manifestations of Lyme disease (Table 1). Seropositivity in a patient for whom there are objective findings of extracutaneous Lyme disease is sufficient to make a presumptive diagnosis. Current recommendations are for “two-step testing” that typically consists of an enzyme immunoassay (EIA) followed, if the EIA is reactive, by western blot test(s) 2. Most EIAs use a whole cell sonicate (WCS) of B. burgdorferi as antigen. For patients with an illness of ≤ 4 weeks duration whose first step test EIA is reactive, separate IgM and IgG western blot tests are recommended as second step testing 2. If symptoms have been present for > 4 weeks, IgG western blot alone is recommended as it is highly sensitive for this duration of infection 2, 20 (I-B).",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -155,14 +155,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Serologic testing.",
     "parent": "Laboratory testing"
   },
   {
-    "chunk_id": "paper_003_c9",
+    "chunk_id": "lyme_disease_003_c9",
     "text": "If symptoms have been present for > 4 weeks, IgG western blot alone is recommended as it is highly sensitive for this duration of infection 2, 20 (I-B). To avoid loss of specificity, the following practices should be avoided (all III-B): using assays not approved by the FDA; omitting the first step assay; performing western blotting despite a negative first step test; and using IgM western blots to confirm the diagnosis in a patient with longstanding symptoms and a negative IgG western blot 21. In addition, use of unconventional criteria for western blot interpretation can substantively degrade the performance of these tests 22 (III-B). Serologic testing is highly sensitive for patients with neurologic or cardiac manifestations at time of presentation (≥80%) 23. If initial testing is negative but early neurologic or cardiac Lyme disease remains suspected, serologic testing should be repeated in 2-4 weeks (IIa-C). Attempts have been made to simplify and improve the accuracy of the two-step testing strategy, while also minimizing time and costs.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -175,14 +175,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Serologic testing.",
     "parent": "Laboratory testing"
   },
   {
-    "chunk_id": "paper_003_c10",
+    "chunk_id": "lyme_disease_003_c10",
     "text": "Attempts have been made to simplify and improve the accuracy of the two-step testing strategy, while also minimizing time and costs. For example, the use of “striped” western blots in which purified antigens are placed at defined locations on a strip ensures a greater standardization between test runs and allows objective quantification using densitometric scanning 24. Another approach has been to develop EIAs with fewer cross-reactive antigens. For example, the C6 peptide EIA, which uses a highly invariant region of the B. burgdorferi VlsE (V ariable major protein- l ike s equence, E xpressed) protein, has greater specificity than most WCS-based EIAs 25, 26. While use of C6 as a stand-alone test is not routinely recommended due to a small reduction in specificity compared with two-step testing 26, 27, C6 testing alone should be considered when patients are suspected to have acquired the disease in Europe.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -195,14 +195,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Serologic testing.",
     "parent": "Laboratory testing"
   },
   {
-    "chunk_id": "paper_003_c11",
+    "chunk_id": "lyme_disease_003_c11",
     "text": "The rationale for this recommendation is that i) western blots designed for use in the U.S. have relatively poor sensitivity for European species of Lyme borrelia, and ii) the C6 epitope is conserved across different species and strains, making it a useful diagnostic antigen in Europe where the majority of cases of Lyme disease are caused by B. garinii and B. afzelii 28, 29 (IIa-B). PepC10, an invariant epitope of B. burgdorferi outer surface protein C, is another peptide antigen that has been FDA approved for diagnosing Lyme disease and shows increased sensitivity in early disease 30. Testing strategies that omit the IgM western blot are being developed to avoid its recognized potential for false positive test results 21. One approach is to incorporate the VlsE band into the IgG western blot, because IgG reactivity to this antigen is highly specific and often obtained in early infection 24. Another approach is to use an EIA with one or several highly specific antigens (e.g., C6 or VlsE/PepC10) as the second-step test instead of the western blot 31 – 33.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -215,14 +215,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Serologic testing.",
     "parent": "Laboratory testing"
   },
   {
-    "chunk_id": "paper_003_c12",
+    "chunk_id": "lyme_disease_003_c12",
     "text": "Another approach is to use an EIA with one or several highly specific antigens (e.g., C6 or VlsE/PepC10) as the second-step test instead of the western blot 31 – 33. In several studies, a WCS-based EIA followed by the C6 EIA has shown a specificity similar to that of traditional two-step testing (IIa-B) 31, 33. No serologic diagnostic approach is 100% specific, reinforcing current recommendations to not test patients with a low clinical pre-test probability of Lyme disease, such as patients who lack objective findings and have only non-specific symptoms such as fatigue (I-B) 2, 34, 35. Serological tests also have a poor predictive value in geographic areas with a low prevalence of disease 36.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -235,14 +235,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Serologic testing.",
     "parent": "Laboratory testing"
   },
   {
-    "chunk_id": "paper_003_c13",
+    "chunk_id": "lyme_disease_003_c13",
     "text": "Central nervous system (CNS) involvement can be established by testing cerebrospinal fluid (CSF) for intrathecal borrelial antibody production and/or borrelial DNA, but these tests have variable or poor sensitivity such that their negative predictive value may be low (IIa-B) 37, 38. CXCL13 in CSF has been proposed as a marker of neurologic Lyme disease, but sensitivity (88-100%) and specificity (63-98%) are not consistently high enough to recommend its routine use for clinical diagnosis (IIb-B) 39 – 42. Another limiting factor of the CXCL13 assay is that CSF samples must be acquired before the start of antibiotic therapy. The most common application of PCR in Lyme disease diagnosis is for establishing a diagnosis of Lyme arthritis. PCR on synovial fluid has a >75% sensitivity in IgG seropositive patients with Lyme arthritis 43. Culture of borrelia species from blood, skin biopsies, CSF and synovial fluid is difficult and lacks adequate sensitivity 23.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -255,14 +255,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Laboratory testing other than serology.",
     "parent": "Laboratory testing"
   },
   {
-    "chunk_id": "paper_003_c14",
+    "chunk_id": "lyme_disease_003_c14",
     "text": "Culture of borrelia species from blood, skin biopsies, CSF and synovial fluid is difficult and lacks adequate sensitivity 23. The following tests are not recommended for diagnosing Lyme disease: certain novel techniques to culture borrelia in blood 44, 45, CD57 cell numbers in blood 46, 47, borrelial antibody testing on CSF without correcting for passive diffusion of antibody present in blood 48, borrelia antibody testing on synovial fluid 49, tests of cellular immunity 50 and urine antigen testing (all III-B) 51.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -275,14 +275,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Laboratory testing other than serology.",
     "parent": "Laboratory testing"
   },
   {
-    "chunk_id": "paper_003_c15",
+    "chunk_id": "lyme_disease_003_c15",
     "text": "HGA occurs in all Lyme disease endemic areas in the U.S. and is caused by A. phagocytophilum, a rickettsial bacterium. The diagnosis of HGA should be considered for a patient with tick exposure in an endemic area who presents with unexplained nonspecific symptoms such as fever, chills, headache and myalgias, especially in the setting of abnormal laboratory features, which may include leukopenia, thrombocytopenia and/or mild elevation of liver enzymes 52 – 54. A. phagocytophilum infection can be diagnosed by microscopic identification of morulae in neutrophils on blood smear or in buffy coat (Figure 3), by PCR on blood, and by serologic testing (acute plus convalescent titers, as acute serology alone is too insensitive) (all I,B) (Table 1). Antibody titers typically reach at least 1:640 during acute infection 55. A recent study showed that both PCR and buffy coat examination for morulae have sensitivities in the range of 77-80% for patients who are culture positive for A. phagocytophilum. Culture is available only as a research tool 52.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -295,14 +295,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "HGA",
     "parent": "Diagnosis"
   },
   {
-    "chunk_id": "paper_003_c16",
+    "chunk_id": "lyme_disease_003_c16",
     "text": "Babesiosis, an infection caused by hemoprotozoan parasites of the genus Babesia, is prevalent in the Northeast and upper Midwest regions of the U.S. 56. In these regions, B. microti is the etiologic agent and has a narrower geographic range than B. burgdorferi 57. B. duncani has sporadically caused disease along the Pacific Coast (from northern CA to WA), whereas B. divergens -like organisms have been implicated in only three cases in the Midwest (KY, MO) and the Northwest (WA). Babesiosis is now a nationally reportable disease for 27 states. Most cases of babesiosis are tick transmitted; however, only B. microti is transmitted by I. scapularis 56. Cases of transfusion-transmitted babesiosis have increased in the past decade 58. Vertical transmission is also reported 59, 60. Babesiosis should be considered in a patient with tick exposure in an endemic area who presents with unexplained nonspecific symptoms such as fever, often in conjunction with fatigue, chills, sweats, headache, myalgia, arthralgia and/or anorexia, especially if laboratory features include thrombocytopenia, hemolytic anemia, and/or elevation of liver enzymes 2, 56.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -315,14 +315,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Babesiosis",
     "parent": "Diagnosis"
   },
   {
-    "chunk_id": "paper_003_c17",
+    "chunk_id": "lyme_disease_003_c17",
     "text": "Diagnosis of active babesiosis is typically made by visualization of babesia parasites on Giemsa- or Wright-stained thin blood smears (Table 1) (Figure 4) (I-B) 2, 56. Thick blood smears are not recommended because B. microti and B. duncani parasites are small organisms (diameter <3 μm) that may be missed (III-C). Several real-time PCR assays are useful to detect low-grade B. microti parasitemia in human blood, and are more sensitive than blood smears. These assays have demonstrated high diagnostic sensitivity and specificity, do not amplify DNA from the Plasmodium spp. that cause human malaria, and are designed to avoid cross-reactivity with B. duncani 61 – 65. PCR should be considered early in the infection, when parasites are difficult to visualize on blood smears 56. PCR should be used with caution when monitoring the response to therapy because B. microti DNA can be detected for weeks to months after parasites are no longer visualized on blood smears (IIb-B) 63, 64, 66.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -335,14 +335,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Babesiosis",
     "parent": "Diagnosis"
   },
   {
-    "chunk_id": "paper_003_c18",
+    "chunk_id": "lyme_disease_003_c18",
     "text": "Serology can be used to confirm the diagnosis of babesiosis (I-B) but cannot replace microscopy or PCR because i) babesia specific antibody may be absent or undetectable early in the course of illness and ii) antibody persists beyond resolution of infection 2, 56. Antibody is detected in serum using an indirect immunofluorescence assay (IFA), but other modalities of detection are under development 67, 68. A positive IgM titer is only suggestive of infection, and must be accompanied by a positive IgG titer 56. IgG titers to B microti of ≥1:1024 signify active or recent infection. The IFA should use antigens for the babesia species relevant to the geographic area of the patient because of lack of cross-reactivity 69, 70. The IFA that uses whole B. microti antigen has a 88-96% sensitivity and a 90-100% specificity 71. Cases of B. duncani infection have been too few to validate an IFA 70.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -355,14 +355,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Babesiosis",
     "parent": "Diagnosis"
   },
   {
-    "chunk_id": "paper_003_c19",
+    "chunk_id": "lyme_disease_003_c19",
     "text": "Suggested treatments for adult patients in the U.S. who present with the most common objective clinical manifestations of Lyme disease are shown in Table 2. The first line antibiotics for treating Lyme disease are doxycycline, amoxicillin, and cefuroxime axetil orally and ceftriaxone intravenously (all I-A). Macrolides are considered second line agents (IIa-A) reserved for patients unable to tolerate beta-lactams and doxycycline, due to higher rates of treatment failure in some, but not all studies 2, 72 – 75. Older treatment trials employed a 20-day course of antibiotic therapy for EM 76, 77, but more recent studies provide evidence that a 10-day course of doxycycline is highly effective for EM and as effective as longer treatment durations (I-A) 16, 78, 79. There is now stronger evidence that oral doxycycline is effective treatment for Lyme meningitis, cranial neuropathy and radiculopathy 80 – 84.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -375,14 +375,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Lyme disease",
     "parent": "Treatment"
   },
   {
-    "chunk_id": "paper_003_c20",
+    "chunk_id": "lyme_disease_003_c20",
     "text": "There is now stronger evidence that oral doxycycline is effective treatment for Lyme meningitis, cranial neuropathy and radiculopathy 80 – 84. In a prospective, randomized, double-blind study, Ljostad et al. compared doxycycline 200 mg once daily orally with ceftriaxone 2 gms once daily intravenously for 14 days in 102 subjects from Norway with neurologic Lyme disease and found no treatment failure in either arm 80. The species of Lyme borrelia in Europe do not strictly overlap with the species found in the USA, but there are no data to suggest a differential response to antibiotics among Lyme borrelia species. Based on these studies, oral doxycycline at the dose of 200 mg daily for adults given for 14 days can be considered as first line therapy for neurologic Lyme disease in Europe (I-A) and for ambulatory patients with early neurologic Lyme disease in the USA (IIa-C) (Table 2). No new evidence was found to alter the existing antibiotic recommendations by the IDSA for treatment of other extracutaneous manifestations of Lyme disease 2.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -395,14 +395,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Lyme disease",
     "parent": "Treatment"
   },
   {
-    "chunk_id": "paper_003_c21",
+    "chunk_id": "lyme_disease_003_c21",
     "text": "There is no new evidence to alter the existing IDSA recommendations for treatment of HGA 2. The IDSA guidelines state that all patients suspected of having HGA should receive empiric therapy with doxycycline for 10 days without the need for laboratory confirmation (I-B) (Table 3) 85. Response to doxycycline therapy for HGA is typically rapid and often seen after a single dose of antibiotic 86. Failure to improve within 48 hours of initiation of doxycycline therapy should raise concern that the patient does not have HGA or has a coinfection that is not responsive to doxycycline such as babesiosis. Doxycycline is not considered safe in pregnancy. In the case of life-threatening HGA, however, use of doxycycline may be warranted 87. A treatment shorter than 10 days may be reasonable depending on the clinical response, but systematic studies are lacking. There have been reports of successful use of rifampin in treating HGA in pregnant women and young children, but data are limited (IIb-C, Table 3) 88, 89.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -415,14 +415,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "HGA",
     "parent": "Treatment"
   },
   {
-    "chunk_id": "paper_003_c22",
+    "chunk_id": "lyme_disease_003_c22",
     "text": "Current guidelines recommend therapy for symptomatic patients only 2. Patients with mild to moderate babesiosis should be treated with a 7- to 10-day course of oral azithromycin combined with oral atovaquone (I-B) (Table 3). This recommendation is supported by data from a prospective, non-blinded, randomized trial in 58 patients with non-life threatening babesiosis caused by B. microti 90. In this trial, azithromycin plus atovaquone was not different from clindamycin plus quinine in resolving symptoms, but produced fewer side effects. In addition, clearance of parasite DNA in blood, an indirect measure of parasitemia, did not differ significantly between the two regimens 90. The IDSA guidelines for treating severe babesiosis recommend a 7- to 10-day course of intravenous clindamycin combined with oral quinine (I-C) 2. This recommendation is based on expert opinion as efficacy and benefit/risk ratio of this regimen have not been addressed in a clinical trial. Given that quinine therapy often is interrupted due to drug toxicity, consideration should be given to a regimen of intravenous azithromycin plus oral atovaquone when treating severe babesiosis in hospitalized patients (IIb-C).",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -435,14 +435,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Babesiosis",
     "parent": "Treatment"
   },
   {
-    "chunk_id": "paper_003_c23",
+    "chunk_id": "lyme_disease_003_c23",
     "text": "Some cases have been successfully treated with a combination of intravenous clindamycin and oral atovaquone 59, 91, 92, but the efficacy of this regimen, like most anti-babesia drug regimens, remains to be tested in a clinical trial (IIb-C). Persistent or relapsing babesiosis often occurs in highly immunocompromised individuals, particularly in patients with B cell lymphoma who are or were recently treated with rituximab 93 – 95. Other risk factors have not been clearly defined but appear to include HIV infection with low CD4 cell counts 93, 96 and immunosuppressive therapy for solid organ 94 or stem cell transplants 97. Evidence from a recent retrospective case-control study supports treating such highly immunocompromised patients for ≥6 weeks, with negative blood smears for ≥2 weeks prior to discontinuation (I-B) 93. Several antimicrobial regimens have been used, including two drug regimens such as azithromycin plus atovaquone or clindamycin plus atovaquone or three drug regimens such as atovaquone plus azithromycin plus clindamycin or atovaquone plus clindamycin plus artemisinin 93, 94, 98. Atovaquone/proguanil has been included in various drug regimens 94, 96 – 98.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -455,14 +455,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Babesiosis",
     "parent": "Treatment"
   },
   {
-    "chunk_id": "paper_003_c24",
+    "chunk_id": "lyme_disease_003_c24",
     "text": "Atovaquone/proguanil has been included in various drug regimens 94, 96 – 98. No particular anti-babesia drug regimen appears to be superior 93, but systematic studies are lacking. Reducing or discontinuing immunosuppressive therapy is desirable. Higher doses of oral azithromycin (from 600 to 1000 mg per day) should be considered for immunocompromised patients 99 (IIb-C), as several cases of antibiotic resistance have developed on lower dosages in such patients 94. Partial or complete red blood cell exchange transfusion should be considered for patients with high-grade parasitemia (≥10%), severe hemolysis, or pulmonary, renal or hepatic compromise (IIa-C) 2. However, there are no systematic studies on this therapeutic modality, nor are there data on the benefit and optimal use of red blood cell exchange versus whole blood or plasma exchange. A review of 24 cases of life-threatening babesiosis revealed that hemolysis is the most frequent indication for exchange transfusion in babesiosis 100.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -475,14 +475,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Babesiosis",
     "parent": "Treatment"
   },
   {
-    "chunk_id": "paper_003_c25",
+    "chunk_id": "lyme_disease_003_c25",
     "text": "A review of 24 cases of life-threatening babesiosis revealed that hemolysis is the most frequent indication for exchange transfusion in babesiosis 100. This series, although limited in size, suggested that i) early use of exchange transfusion may prevent organ dysfunction and possibly death, ii) a 90% reduction in parasitemia should be the minimally desired target of red blood cell exchange, and iii) this target can be achieved by exchanging with 2.5 times the patient red blood cell volume 100. Splenic infarct and splenic rupture may complicate the course of babesiosis 101. Such patients often experience low levels of parasitemia and do not present with any of the complications typically associated with severe babesiosis 102, 103. Non-surgical control of splenic rupture is preferred, particularly when the patient is at risk of renewed exposure to babesia species because splenectomy predisposes to severe babesiosis 101, 104.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -495,14 +495,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Babesiosis",
     "parent": "Treatment"
   },
   {
-    "chunk_id": "paper_003_c26",
+    "chunk_id": "lyme_disease_003_c26",
     "text": "Co-infections that include Lyme disease plus either HGA or babesiosis have been well documented 57. The number of symptoms in patients with concurrent Lyme disease and babesiosis is greater than in patients with Lyme disease alone 105, 106. The same observation has been reported for Lyme disease and HGA in some studies but not all 106 – 108. Co-infection should be considered for Lyme disease patients with fever for more than 48 hours on antibiotic therapy or for those with unexplained leukopenia, thrombocytopenia and/or anemia. Doxycycline may be included empirically in the treatment regimen for babesiosis when Lyme disease or HGA co-infection is suspected. When a co-infection has been documented, patients should receive therapies appropriate for the treatment of each infection (I-C).",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -515,14 +515,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Co-infections",
     "parent": "Treatment"
   },
   {
-    "chunk_id": "paper_003_c27",
+    "chunk_id": "lyme_disease_003_c27",
     "text": "Borrelia miyamotoi, Borrelia mayonii, deer tick virus (DTV), and Ehrlichia muris -like agent are transmitted by the I. scapularis tick and are recognized as emerging human pathogens. B. miyamotoi is most closely related to relapsing fever borrelia and causes an undifferentiated febrile illness that may include findings of increased liver enzymes, leukopenia/thrombocytopenia, and in immunocompromised patients, chronic meningoencephalitis 109 – 113. B. miyamotoi can be diagnosed by detection of antibody to the GlpQ protein or PCR amplification of the glpQ gene, which is not present in B. burgdorferi 114 – 116. The first line antibiotics used to treat EM appear effective against B. miyamotoi 109, 114, but no systematic study has been carried out. A new Lyme borrelia, B. mayonii, has been reported in the Midwestern USA as causing a Lyme disease-like illness 117. Criteria for diagnosis and appropriate treatment are to be determined but are likely to be similar to those for B. burgdorferi.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -535,14 +535,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Other Ixodes -transmitted infections",
     "parent": "RESULTS"
   },
   {
-    "chunk_id": "paper_003_c28",
+    "chunk_id": "lyme_disease_003_c28",
     "text": "Criteria for diagnosis and appropriate treatment are to be determined but are likely to be similar to those for B. burgdorferi. DTV is a discrete subtype of Powassan virus that can cause a severe meningoencephalitis, although there is likely a spectrum of severity from asymptomatic to severe 118. Diagnosis is made by serologic testing and/or PCR 119, 120. Treatment is supportive only. The E. muris -like agent has only been reported in Minnesota and Wisconsin 121. It also causes an undifferentiated febrile illness that can be associated with increased liver enzymes and cytopenias. Diagnosis is typically made by PCR on a blood specimen 120. Serology may cross react with E. chaffeensis but not A. phagocytophilum. Treatment with doxycycline appears to be effective 120. Diagnostic testing for each of these pathogens is performed by only a few specialized laboratories.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -555,14 +555,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Other Ixodes -transmitted infections",
     "parent": "RESULTS"
   },
   {
-    "chunk_id": "paper_003_c29",
+    "chunk_id": "lyme_disease_003_c29",
     "text": "There are no available human vaccines for Lyme disease, HGA or babesiosis. A single 200 mg prophylactic dose of doxycycline following a tick bite was 87% effective in preventing the development of EM at the bite site 122, but the confidence interval surrounding this efficacy rate was wide. Prophylaxis is only recommended when an Ixodes tick from a Lyme disease endemic area has been attached for ≥36 hrs and prophylaxis can be started within 72 hrs 2. The effect of single dose prophylaxis with doxycycline on other I. scapularis transmitted infections is unknown. Current recommendations to reduce risk of transmission include daily body checks for ticks, use of tick repellents containing DEET, use of clothing impregnated with acaricides such as permethrin and minimizing skin exposure to ticks 123. Bathing/showering within 2 hours of tick exposure helps prevent attachment of ticks and reduces the odds of contracting Lyme disease (OR=0.4), as does use of protective clothing (OR=0.6) 124.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -575,14 +575,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Disease prevention",
     "parent": "RESULTS"
   },
   {
-    "chunk_id": "paper_003_c30",
+    "chunk_id": "lyme_disease_003_c30",
     "text": "Bathing/showering within 2 hours of tick exposure helps prevent attachment of ticks and reduces the odds of contracting Lyme disease (OR=0.4), as does use of protective clothing (OR=0.6) 124. Tick checks and use of tick repellents have yielded inconsistent results 124, 125, but adherence to these measures was not assessed and failures may be due to lack of strict use of preventive measures during risky exposures. Placing clothes in a dryer for up to one hour effectively kills ticks 126, but has not been evaluated for reduction of Lyme disease cases. These interventions have minimal potential risks, so although they may have limited benefit, they can be recommended. Modifications of the home environment have not clearly been shown to affect transmission risk. Spraying of pesticides around the home effectively reduces tick populations but interestingly has not affected the incidence of Lyme disease 124, 127. This discrepancy may be due to risks of exposure away from home. Alternatively, the drop in tick numbers, while large, may need to be even larger to reduce risk of tick-borne diseases.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -595,14 +595,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Disease prevention",
     "parent": "RESULTS"
   },
   {
-    "chunk_id": "paper_003_c31",
+    "chunk_id": "lyme_disease_003_c31",
     "text": "Alternatively, the drop in tick numbers, while large, may need to be even larger to reduce risk of tick-borne diseases. Targeted application of acaricides to mice (Damminix) or deer (four poster device) has yielded mixed results 128 – 131 or, in the case of the four poster device, has raised concerns about the spread of other diseases such as chronic wasting disease in deer. Altering landscape features by removing leaf litter or having a barrier to adjacent wooded areas have not consistently reduced the incidence of Lyme disease 124.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -615,14 +615,14 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Disease prevention",
     "parent": "RESULTS"
   },
   {
-    "chunk_id": "paper_003_c32",
+    "chunk_id": "lyme_disease_003_c32",
     "text": "A systematic review of peer-reviewed articles identified several refinements to the current practices in treating Lyme disease and babesiosis. Specifically, evidence supports using a 10-day course of therapy when oral doxycycline is prescribed to treat EM, using a 14-day course of oral doxycycline for treatment of early neurologic Lyme disease in ambulatory patients, and treating highly immunocompromised patients with babesiosis with a longer course (≥6 weeks) of antimicrobial therapy. Whether the current two-step serologic testing algorithm for Lyme disease should be modified deserves further investigation. Additional studies are needed in multiple critical areas including: tools to diagnose specific manifestations of Lyme disease (e.g., neurologic Lyme disease); tests to distinguish active from past infection in individuals seropositive for B. burgdorferi antibody; tests to screen the blood supply for babesia species; alternative therapies to doxycycline for treating HGA; and effective strategies to prevent tick-borne diseases including vaccine development.",
-    "paper_id": "paper_003",
+    "paper_id": "lyme_disease_003",
     "title": "Diagnosis, Treatment and Prevention of Lyme Disease, Human Granulocytic Anaplasmosis and Babesiosis",
     "authors": [
       "Sanchez E",
@@ -635,7 +635,7 @@
     "doi": "10.1001/jama.2016.2884",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7758915/",
     "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "SUMMARY",
     "parent": ""
   }

@@ -2,13 +2,20 @@
 Chunk cleaned PubMed paper JSON files for a RAG pipeline.
 
 Usage (from project root):
-    python Backend/src/chunk_papers.py
-    python Backend/src/chunk_papers.py --input-dir data/clean --output-dir data/chunks
+    python Backend/src/chunk_papers.py                       # every disease folder
+    python Backend/src/chunk_papers.py lyme_disease asthma   # just these diseases
+    python Backend/src/chunk_papers.py --processed-dir data/processed --output-dir data/chunks
 
-Input : one JSON per paper (schema: paper_id, title, authors, year, journal, doi,
-        pmcid, url, license, abstract, sections[{heading, parent, text}])
-Output: data/chunks/<paper_id>.json   (list of chunks for that paper)
-        data/chunks/all_chunks.jsonl  (every chunk, one per line)
+Input : data/processed/<disease>/*.json, one JSON per paper (schema: paper_id,
+        title, authors, year, journal, doi, pmcid, url, license, abstract,
+        sections[{heading, parent, text}])
+Output: data/chunks/<disease>/<paper_id>.json          (chunks for that paper)
+        data/chunks/<disease>/<disease>_chunks.jsonl   (every chunk for that disease)
+        data/chunks/all_chunks.jsonl                   (every chunk, all diseases)
+
+Each chunk's "disease" field is the folder name (e.g. "lyme_disease"), so the
+vector store can filter by disease. all_chunks.jsonl is rebuilt from every
+disease's .jsonl at the end, so chunking one disease never drops the others.
 """
 
 import argparse
@@ -187,46 +194,89 @@ def build_chunks(paper: dict, disease: str | None = None) -> list[dict]:
 # ----------------------------------------------------------------------------
 # Main
 # ----------------------------------------------------------------------------
-def main() -> None:
-    root = Path(__file__).resolve().parents[2]  # project root (backend/src/..)
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
-    ap.add_argument("--input-dir", type=Path, default=root / "data" / "processed" / "lyme_disease")
-    ap.add_argument("--output-dir", type=Path, default=root / "data" / "chunks")
-    args = ap.parse_args()
-
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
-    args.output_dir.mkdir(parents=True, exist_ok=True)
-
-    files = sorted(args.input_dir.glob("*.json"))
+def chunk_disease(input_dir: Path, output_dir: Path, disease: str) -> tuple[int, int, list[str]]:
+    """Chunk every paper JSON in input_dir into output_dir.
+    Returns (papers seen, chunks written, paper_ids that produced no chunks)."""
+    files = sorted(input_dir.glob("*.json"))
     if not files:
-        raise SystemExit(f"No JSON files found in {args.input_dir}")
+        log.warning("[skip] %s: no JSON files in %s", disease, input_dir)
+        return 0, 0, []
 
+    output_dir.mkdir(parents=True, exist_ok=True)
     total, empty_papers = 0, []
-    with open(args.output_dir / "all_chunks.jsonl", "w", encoding="utf-8") as combined:
+    with open(output_dir / f"{disease}_chunks.jsonl", "w", encoding="utf-8") as combined:
         for f in files:
             try:
                 paper = json.loads(f.read_text(encoding="utf-8"))
-                chunks = build_chunks(paper)
+                chunks = build_chunks(paper, disease=disease)
             except Exception as e:  # keep going on a bad file
-                log.error("Failed on %s: %s", f.name, e)
+                log.error("Failed on %s/%s: %s", disease, f.name, e)
                 continue
 
             if not chunks:
                 empty_papers.append(paper.get("paper_id", f.stem))
-                log.warning("No chunks produced for %s", f.name)
+                log.warning("No chunks produced for %s/%s", disease, f.name)
                 continue
 
             assert all(c["text"].strip() for c in chunks), f"empty chunk in {f.name}"
-            out = args.output_dir / f"{paper['paper_id']}.json"
+            out = output_dir / f"{paper['paper_id']}.json"
             out.write_text(json.dumps(chunks, ensure_ascii=False, indent=2), encoding="utf-8")
             for c in chunks:
                 combined.write(json.dumps(c, ensure_ascii=False) + "\n")
             total += len(chunks)
 
-    log.info("Papers: %d | chunks: %d | papers with no chunks: %d",
-             len(files), total, len(empty_papers))
-    if empty_papers:
-        log.warning("Papers with zero chunks: %s", empty_papers)
+    log.info("%s: papers %d | chunks %d | papers with no chunks %d",
+             disease, len(files), total, len(empty_papers))
+    return len(files), total, empty_papers
+
+
+def rebuild_combined(output_root: Path) -> int:
+    """Concatenate every <disease>/<disease>_chunks.jsonl into all_chunks.jsonl."""
+    count = 0
+    with open(output_root / "all_chunks.jsonl", "w", encoding="utf-8") as out:
+        for jsonl in sorted(output_root.glob("*/*_chunks.jsonl")):
+            for line in jsonl.read_text(encoding="utf-8").splitlines():
+                if line.strip():
+                    out.write(line + "\n")
+                    count += 1
+    return count
+
+
+def main() -> None:
+    root = Path(__file__).resolve().parents[2]  # project root (Backend/src/..)
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
+    ap.add_argument("diseases", nargs="*",
+                    help="disease folder names to chunk (default: every folder in --processed-dir)")
+    ap.add_argument("--processed-dir", type=Path, default=root / "data" / "processed")
+    ap.add_argument("--output-dir", type=Path, default=root / "data" / "chunks")
+    args = ap.parse_args()
+
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+
+    if not args.processed_dir.is_dir():
+        raise SystemExit(f"Processed folder not found: {args.processed_dir}")
+    folders = sorted(p for p in args.processed_dir.iterdir() if p.is_dir())
+    if args.diseases:
+        names = {f.name for f in folders}
+        for missing in sorted(set(args.diseases) - names):
+            log.warning("[skip] %s: no such folder in %s", missing, args.processed_dir)
+        folders = [f for f in folders if f.name in set(args.diseases)]
+    if not folders:
+        raise SystemExit(f"No disease folders to chunk in {args.processed_dir}")
+
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    papers = chunks = 0
+    all_empty: list[str] = []
+    for folder in folders:
+        p, c, empty = chunk_disease(folder, args.output_dir / folder.name, folder.name)
+        papers, chunks, all_empty = papers + p, chunks + c, all_empty + empty
+
+    combined = rebuild_combined(args.output_dir)
+    log.info("This run: %d disease(s) | papers %d | chunks %d",
+             len(folders), papers, chunks)
+    log.info("all_chunks.jsonl now holds %d chunks across all diseases", combined)
+    if all_empty:
+        log.warning("Papers with zero chunks: %s", all_empty)
 
 
 if __name__ == "__main__":

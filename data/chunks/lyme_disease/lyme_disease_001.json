@@ -1,8 +1,8 @@
 [
   {
-    "chunk_id": "paper_001_c1",
+    "chunk_id": "lyme_disease_001_c1",
     "text": "Background: Interpretation of serological assays in Lyme borreliosis requires an understanding of the clinical indications and the limitations of the currently available tests. We therefore systematically reviewed the accuracy of serological tests for the diagnosis of Lyme borreliosis in Europe. Methods: We searched EMBASE en MEDLINE and contacted experts. Studies evaluating the diagnostic accuracy of serological assays for Lyme borreliosis in Europe were eligible. Study selection and data-extraction were done by two authors independently. We assessed study quality using the QUADAS-2 checklist. We used a hierarchical summary ROC meta-regression method for the meta-analyses. Potential sources of heterogeneity were test-type, commercial or in-house, Ig-type, antigen type and study quality. These were added as covariates to the model, to assess their effect on test accuracy. Results: Seventy-eight studies evaluating an Enzyme-Linked ImmunoSorbent assay (ELISA) or an immunoblot assay against a reference standard of clinical criteria were included. None of the studies had low risk of bias for all QUADAS-2 domains.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -32,14 +32,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Abstract",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c2",
+    "chunk_id": "lyme_disease_001_c2",
     "text": "None of the studies had low risk of bias for all QUADAS-2 domains. Sensitivity was highly heterogeneous, with summary estimates: erythema migrans 50 % (95 % CI 40 % to 61 %); neuroborreliosis 77 % (95 % CI 67 % to 85 %); acrodermatitis chronica atrophicans 97 % (95 % CI 94 % to 99 %); unspecified Lyme borreliosis 73 % (95 % CI 53 % to 87 %). Specificity was around 95 % in studies with healthy controls, but around 80 % in cross-sectional studies. Two-tiered algorithms or antibody indices did not outperform single test approaches. Conclusions: The observed heterogeneity and risk of bias complicate the extrapolation of our results to clinical practice. The usefulness of the serological tests for Lyme disease depends on the pre-test probability and subsequent predictive values in the setting where the tests are being used. Future diagnostic accuracy studies should be prospectively planned cross-sectional studies, done in settings where the test will be used in practice. Keywords: Lyme borreliosis, serology, sensitivity and specificity, meta-analysis",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -69,14 +69,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Abstract",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c3",
+    "chunk_id": "lyme_disease_001_c3",
     "text": "Lyme borreliosis is one of the most prevalent vector-borne diseases in Europe. Its incidence varies between countries, with approximately 65,500 patients annually in Europe (estimated in 2009) [1]. It is caused by spirochetes of the Borrelia burgdorferi sensu lato species complex, which are transmitted by several species of Ixodid ticks [2]. In Europe, at least five genospecies of the Borrelia burgdorferi sensu lato complex can cause disease, leading to a variety of clinical manifestations including erythema migrans (EM), neuroborreliosis, arthritis and acrodermatitis chronica atrophicans (ACA). Each of these clinical presentations can be seen as a distinct target condition, i.e. the disorder that a test tries to determine, as they affect different body parts and different organ systems, and because the patients suffering from these conditions may enter and travel through the health care system in different ways, hence following different clinical pathways. The diagnosis of Lyme borreliosis is based on the presence of specific symptoms, combined with laboratory evidence for infection. Laboratory confirmation is essential in case of non-specific disease manifestations.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -106,14 +106,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Background",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c4",
+    "chunk_id": "lyme_disease_001_c4",
     "text": "The diagnosis of Lyme borreliosis is based on the presence of specific symptoms, combined with laboratory evidence for infection. Laboratory confirmation is essential in case of non-specific disease manifestations. Serology is the cornerstone of Lyme laboratory diagnosis, both in primary care and in more specialized settings. Serological tests that are most often used are enzyme-linked immunosorbent assays (ELISAs) or immunoblots. ELISAs are the first test to be used; immunoblots are typically applied only when ELISA was positive. If signs and symptoms are inconclusive, the decision may be driven by the serology test results. In such a situation, patients may be treated with antibiotics after a positive serology result – a positive ELISA possibly followed by a positive immunoblot. After negative serology – a negative ELISA or a positive ELISA followed by a negative immunoblot – patients will not be treated for Lyme borreliosis, but they will be followed up or referred for further diagnosis.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -143,14 +143,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Background",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c5",
+    "chunk_id": "lyme_disease_001_c5",
     "text": "This implies that false positively tested patients (who have no Lyme borreliosis, but have positive serology) will be treated for Lyme borreliosis while they have another condition. It also implies that falsely negative tested patients (who have the disease, but test negative) will not be treated for Lyme borreliosis. A test with a high specificity – which is the percentage true negative results among patients without the target condition – will result in a low percentage of false positives. A test with a high sensitivity – being the percentage true positives among patients with the target condition – will result in a low percentage of false negatives. The interpretation of serology results is complicated. The link between antibody status and actual infection may not be obvious: non-infected people may have immunity and test positive, while infected people may have a delay in their antibody response and may test negative.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -180,14 +180,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Background",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c6",
+    "chunk_id": "lyme_disease_001_c6",
     "text": "Furthermore, there is an overwhelming number of different available assays that have all been evaluated in different patient populations and settings and that may perform differently for the various disease manifestations [3]. We therefore systematically reviewed all available literature to assess the accuracy (expressed as sensitivity and specificity) of serological tests for the diagnosis of the different manifestations of Lyme borreliosis in Europe. Our secondary aim was to investigate potential sources of heterogeneity, for example test-type, whether the test was a commercial test or an in-house test, publication year and antigens used.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -217,14 +217,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Background",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c7",
+    "chunk_id": "lyme_disease_001_c7",
     "text": "We searched EMBASE and Medline (Appendix 1) and contacted experts for studies evaluating serological tests against a reference standard. The reference standard is the test or testing algorithm used to define whether someone has Lyme borreliosis or not. We included studies using any reference standard, but most studies used clinical criteria, sometimes in combination with serology. Studies performed in Europe and published in English, French, German, Norwegian, Spanish and Dutch were included. The ideal study type to answer our question would be a cross-sectional study, including a series of representative, equally suspected patients who undergo both the index test and the reference standard [4]. Such studies would provide valid estimates of sensitivity and specificity and would also directly provide estimates of prevalence and predictive values. However, as we anticipated that these cross-sectional studies would be very sparse, we decided to include case-control studies or so-called two-gate designs as well [5]. These studies estimate the sensitivity of a test in a group of cases, i.e. patients for whom one is relatively sure that they have Lyme borreliosis.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -254,14 +254,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Methods",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c8",
+    "chunk_id": "lyme_disease_001_c8",
     "text": "These studies estimate the sensitivity of a test in a group of cases, i.e. patients for whom one is relatively sure that they have Lyme borreliosis. They estimate the specificity in a group of controls, i.e. patients of whom one is relatively sure that they do not have Lyme borreliosis. These are healthy volunteers, or patients with other diseases than Lyme. We included studies on ELISAs, immunoblots, two-tiered testing algorithms of an ELISA followed by an immunoblot, and specific antibody index measurement (calculated using the antibody titers in both serum and cerebrospinal fluid). We excluded indirect fluorescent antibody assays, as these are rarely used in practice. Studies based on make-up samples were excluded. We also excluded studies for which 2 × 2 tables could not be inferred from the study results. For each article, two authors independently collected study data and assessed quality. We assessed the quality using the Quality Assessment of Diagnostic Accuracy Studies-2 (QUADAS-2) checklist. This checklist consists of four domains: patient selection, index test, reference standard and flow and timing [6].",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -291,14 +291,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Methods",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c9",
+    "chunk_id": "lyme_disease_001_c9",
     "text": "This checklist consists of four domains: patient selection, index test, reference standard and flow and timing [6]. Each of these domains has a sub-domain for risk of bias and the first three have a sub-domain for concerns regarding the applicability of study results. The sub-domains about risk of bias include a number of signalling questions to guide the overall judgement about whether a study is highly likely to be biased or not (Appendix 2). We analysed test accuracy for each of the manifestations of Lyme borreliosis separately and separately for case-control designs and cross-sectional designs. If a study did not distinguish between the different manifestations, we used the data of this study in the analysis for the target condition “unspecified Lyme”. Serology assays measure the level of immunoglubulins (Ig) in the patient’s serum. IgM is the antibody most present in the early stages of disease, while IgG increases later in the disease. Some tests only measure IgM, some only IgG and some tests measure any type of Ig.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -328,14 +328,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Methods",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c10",
+    "chunk_id": "lyme_disease_001_c10",
     "text": "Some tests only measure IgM, some only IgG and some tests measure any type of Ig. In some studies, the accuracy was reported for IgM only, IgG only and for detection of IgG and IgM. In those cases, we included the data for simultaneous detection of both IgG and IgM (IgT). We meta-analyzed the data using the Hierarchical Summary ROC (HSROC) model, a hierarchical meta-regression method incorporating both sensitivity and specificity while taking into account the correlation between the two [7]. The model assumes an underlying summary ROC curve through the study results and estimates the parameters for this curve: accuracy, threshold at which the tests are assumed to operate and shape of the curve. Accuracy is a combination of sensitivity and specificity; the shape of the curve provides information about how accuracy varies when the threshold varies. From these parameters we derived the reported sensitivity and specificity estimates. We used SAS 9.3 for the analyses and Review Manager 5.3 for the ROC plots.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -365,14 +365,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Methods",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c11",
+    "chunk_id": "lyme_disease_001_c11",
     "text": "From these parameters we derived the reported sensitivity and specificity estimates. We used SAS 9.3 for the analyses and Review Manager 5.3 for the ROC plots. There is no recommended measure to estimate the amount of heterogeneity in diagnostic accuracy reviews, but researchers are encouraged to investigate potential sources of heterogeneity [7]. The most prominent source of heterogeneity is variation in threshold, which is taken into account by using the HSROC model. Other potential sources of heterogeneity are: test type (ELISA or immunoblot); a test being commercial or not; immunoglobulin type; antigen used; publication year; late versus early disease; and study quality. These were added as covariates to the model to explain variation in accuracy, threshold or shape of the curve. Some studies reported results for patients with “possible Lyme” (i.e. no clear cases, neither clear controls). We included these as cases. As this may lead to underestimation of sensitivity, we investigated the effect of this approach. Borderline test results were included in the test-positive group.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -402,14 +402,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Methods",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c12",
+    "chunk_id": "lyme_disease_001_c12",
     "text": "Our initial search in January 2013 retrieved 8026 unique titles and a search update in February 2014 revealed another 418 titles. After careful selection by two authors independently (ML, HS) we read the full text of 489 studies, performed data-extraction on 122 studies and finally included 75 unique published articles (Fig. 1). Fifty-seven of these had a case-control design, comparing a group of well-defined cases with a group of healthy controls or controls with diseases that could lead to cross-reactivity of the tests [8 – 64]. Eighteen had a cross-sectional design in which a more homogeneous sample of patients underwent both the serological assay(s) and the reference standard [65 – 82]. Three studies were not used in the meta-analyses, either because they used immunoblot as a reference standard [76, 79], or included asymptomatic cross-country runners with high IgG titers as controls [47]. None of the studies had low risk of bias in all four QUADAS-2 domains (Fig. 2 and Tables 1 and 2).",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -439,14 +439,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Selection and quality assessment",
     "parent": "Results"
   },
   {
-    "chunk_id": "paper_001_c13",
+    "chunk_id": "lyme_disease_001_c13",
     "text": "None of the studies had low risk of bias in all four QUADAS-2 domains (Fig. 2 and Tables 1 and 2). Forty-six out of the 57 case-control studies and six out of the 18 cross-sectional studies scored unclear or high risk of bias in all four domains. All case-control studies had a high risk of bias for the patient sampling domain, because these designs exclude all “difficult to diagnose” patients [83]. Only three studies reported that the assessment of the index test was blinded for the disease status of the participants [45, 66, 75]. The cut-off value to decide whether a test is positive or negative was often decided after the study was done, which may also lead to bias in the index test domain [84]. The most common problem was inclusion of the serology results in the reference standard. The flow and timing domain was problematic in all case-control studies, as the cases and controls are usually verified in different ways. Three studies reported potential conflict of interest [31, 39, 62]. Most studies had a high concern regarding applicability, which means that either the included patients or the test used are not representative for clinical practice. Only three studies were representative for all domains [65, 73, 81].",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -476,14 +476,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Selection and quality assessment",
     "parent": "Results"
   },
   {
-    "chunk_id": "paper_001_c14",
+    "chunk_id": "lyme_disease_001_c14",
     "text": "Nineteen case-control studies including healthy controls evaluated the accuracy of serological tests for EM. The summary sensitivity for ELISA or immunoblot detecting EM patients was 50 % (95 % CI 40 % to 61 %) and specificity 95 % (95 % CI 92 % to 97 %). ELISA tests had a higher accuracy than immunoblots (P -value = 0 · 008), mainly due to a higher sensitivity (Table 3). Commercial tests did not perform significantly different from in-house tests. The 23 case-control studies on EM including cross-reacting controls had similar results (data not shown). One cross-sectional study done on EM-suspected patients evaluated four different immunoblots in patients with a positive or unclear ELISA result; their sensitivity varied between 33 and 92 % and their specificity between 27 and 70 % [66].",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -513,14 +513,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Erythema migrans",
     "parent": "Meta-analyses"
   },
   {
-    "chunk_id": "paper_001_c15",
+    "chunk_id": "lyme_disease_001_c15",
     "text": "Twenty case-control studies on neuroborreliosis included healthy controls. Their overall sensitivity was 77 % (95 % CI 67 % to 85 %) and their specificity 93 % (95 % CI 88 % to 96 %) (Fig. 3a). On average, ELISA assays had a lower accuracy than immunoblot assays (P = 0 · 042). The in-house ELISAs had the lowest specificity of all tests (Table 3). Twenty-six case-control studies with cross-reacting controls showed similar results, but with a lower specificity (data not shown). The ten cross-sectional studies for neuroborreliosis had a median prevalence of 50 % (IQR 37 % to 70 %). The summary sensitivity for any serological test done in serum was 78 % (95 % CI 53 % to 92 %) and specificity was 78 % (95 % CI 40 % to 95 %) (Fig. 3b). Whether a test was ELISA or immunoblot, commercial or in-house did not affect model parameters.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -550,14 +550,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Neuroborreliosis",
     "parent": "Meta-analyses"
   },
   {
-    "chunk_id": "paper_001_c16",
+    "chunk_id": "lyme_disease_001_c16",
     "text": "Meta-analysis was not possible for the eight case-control studies on Lyme arthritis with healthy controls. We therefore only report the median estimates and their interquartile range (IQR). Median sensitivity was 96 % (IQR 93 % to 100 %); median specificity was 94 % (IQR 91 % to 97 %) (Table 3). Three cross-sectional studies were done in patients suspected of Lyme arthritis; this was insufficient to do a meta-analysis [66, 71, 85].",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -587,14 +587,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Lyme Arthritis",
     "parent": "Meta-analyses"
   },
   {
-    "chunk_id": "paper_001_c17",
+    "chunk_id": "lyme_disease_001_c17",
     "text": "The nine case control studies on ACA including a healthy control group had a high summary sensitivity for any serological assay: 98 % (95 % CI 84 % to 100 %). Specificity was 94 % (95 % CI 90 % to 97 %). One study had an extremely low sensitivity for the in-house assay evaluated; most likely because one of the antigens used (OspC) is no longer expressed by the spirochetes in long-standing disease [45]. Test-type was not added to the analyses, because of insufficient data. Case-control studies for ACA including cross-reacting controls had a lower sensitivity and specificity than the healthy control designs (both 91 %).",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -624,14 +624,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Acrodermatitis chronica atrophicans",
     "parent": "Meta-analyses"
   },
   {
-    "chunk_id": "paper_001_c18",
+    "chunk_id": "lyme_disease_001_c18",
     "text": "Thirteen case-control studies included unspecified Lyme borreliosis cases and healthy controls. Their summary sensitivity for any test was 73 % (95 % CI 53 % to 87) and specificity was 96 % (95 % CI 91 % to 99 %) (Fig. 3c). Commercial tests had a lower accuracy (P -value = 0 · 008), mainly due to a lower sensitivity (Table 3). Twelve studies including cross-reacting controls had a summary sensitivity of 81 % (95 % CI 64 % to 91 %) and specificity of 90 % (95 % CI 79 % to 96 %). Five cross-sectional studies aimed to diagnose an unspecified form of Lyme borreliosis (Fig. 3d). The prevalence varied between 10 and 79 %, indicating a varying patient spectrum. Sensitivity was 77 % (95 % CI 48 % to 93 %) and specificity 77 % (95 % CI 46 % to 93 %). There were insufficient data points to analyze test type.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -661,14 +661,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Unspecified Lyme borreliosis",
     "parent": "Meta-analyses"
   },
   {
-    "chunk_id": "paper_001_c19",
+    "chunk_id": "lyme_disease_001_c19",
     "text": "One case-control study investigated the diagnostic accuracy of two-tiered approaches for all manifestations and healthy controls [11]. The sensitivity of the European algorithms varied between 55 % for EM and 100 % for ACA. The specificity for all assays was ≥ 99 %. Another case-control study investigated 12 different algorithms for ‘late Lyme borreliosis’ and ‘early Lyme borreliosis’ [21]. Their sensitivity varied between 4 and 50 % and the specificity varied between 88 and 100 %. One case-control study including EM cases and healthy controls and evaluating two algorithms reported a sensitivity of 11 % or 43 % and a specificity of 100 % [14]. Two cross-sectional studies on two-tiered tests aimed at diagnosing neuroborreliosis [80, 81] and two at diagnosing unspecified Lyme borreliosis [67, 70]. Their prevalence varied between 19 and 77 %; their sensitivity between 46 and 97 %; and their specificity between 56 and 100 %.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -698,14 +698,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Two-tiered tests",
     "parent": "Meta-analyses"
   },
   {
-    "chunk_id": "paper_001_c20",
+    "chunk_id": "lyme_disease_001_c20",
     "text": "Seven studies containing cross-reacting controls evaluated a specific antibody index for the diagnosis of neuroborreliosis. The summary sensitivity was 86 % (95 % CI 63 % to 95 %) and specificity 94 % (95 % CI 85 % to 97 %). The four cross-sectional studies had a summary sensitivity of 79 % (95 % CI 34 % to 97 %) and a summary specificity of 96 % (95 % CI 64 % to 100 %).",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -735,14 +735,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Specific antibody index",
     "parent": "Meta-analyses"
   },
   {
-    "chunk_id": "paper_001_c21",
+    "chunk_id": "lyme_disease_001_c21",
     "text": "The IgG tests had a comparable sensitivity to the IgM tests, except for EM (IgM slightly higher sensitivity), Lyme arthritis and ACA (IgM much lower sensitivity in both). Tests assessing both IgM and IgG had the highest sensitivity and the lowest specificity, although specificity was above 80 % in most cases. (Table 4). We evaluated the effect of three antigen types: whole cell, purified proteins or recombinant antigens. In neuroborreliosis, recombinant antigens had both the highest sensitivity and specificity, while in unspecified Lyme, they had the lowest sensitivity and specificity. (Table 5) Year of publication showed an effect only for erythema migrans and neuroborreliosis: in both cases publications before the year 2000 showed a lower sensitivity than those after 2000. (Table 6) Antigen type and year of publication were not associated with each other. For unspecified Lyme we were able to directly compare the accuracy in early stages of disease with the accuracy in later stages of disease. The tests showed a lower sensitivity and slightly higher specificity in the early stages of the disease. (Table 7).",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -772,14 +772,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Heterogeneity",
     "parent": "Meta-analyses"
   },
   {
-    "chunk_id": "paper_001_c22",
+    "chunk_id": "lyme_disease_001_c22",
     "text": "The tests showed a lower sensitivity and slightly higher specificity in the early stages of the disease. (Table 7). We were able to meta-analyze manufacturer-specific results for only two manufacturers, but the results showed much variability and the confidence intervals were broad. We investigated the effect of the reference standard domain of QUADAS-2: acceptable case definition versus no or unclear; and serology in the case definition versus no or unclear. None had a significant effect on accuracy. The study by Ang contained at least 8 different 2x2 tables for each case definition and may have therefore weighed heavily on the results [8]. However, sensitivity analysis showed that its effect was only marginal. The same was true for assuming possible cases as being controls and indeterminate test results as being negatives.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -809,14 +809,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Heterogeneity",
     "parent": "Meta-analyses"
   },
   {
-    "chunk_id": "paper_001_c23",
+    "chunk_id": "lyme_disease_001_c23",
     "text": "Overall, the diagnostic accuracy of ELISAs and immunoblots for Lyme borreliosis in Europe varies widely, with an average sensitivity of ~80 % and a specificity of ~95 %. For Lyme arthritis and ACA the sensitivity was around 95 %. For EM the sensitivity was ~50 %. In cross-sectional studies of neuroborreliosis and unspecified Lyme borreliosis, the sensitivity was comparable to the case-control designs, but the specificity decreased to 78 and 77 % respectively. Two-tiered tests did not outperform single tests. Specific antibody index tests did not outperform the other tests for neuroborreliosis, although the specificity remained high even in the cross-sectional designs. All results should be interpreted with caution, as the results showed much variation and the included studies were at high risk of bias. Although predictive values could not be meta-analyzed, the sensitivity and specificity estimates from this review may be used to provide an idea of the consequences of testing when the test is being used in practice.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -846,14 +846,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Discussion",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c24",
+    "chunk_id": "lyme_disease_001_c24",
     "text": "Imagine that a clinician sees about 1000 people a year who are suspected of one of the manifestations of Lyme borreliosis, in a setting where the expected prevalence of that manifestation is 10 %. A prevalence of 10 % would mean that 100 out of 1000 tested patients will really have a form of Lyme borreliosis. If these people are tested by an ELISA with a sensitivity 80 %, then 0.80*100 = 80 patients with Lyme borreliosis will test positive and 20 patients will test negative. If we assume a specificity of 80 % as well (following the estimates from the cross-sectional designs), then out of the 900 patients without Lyme borreliosis, 0.80*900 = 720 will test negative and 180 will test positive. These numbers mean that in this hypothetical cohort of 1000 tested patients, 80 + 180 = 260 patients will have a positive test result. Only 80 of these will be true positives and indeed have Lyme borreliosis (positive predictive value 80/260 = 0.31 = 31 %).",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -883,14 +883,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Discussion",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c25",
+    "chunk_id": "lyme_disease_001_c25",
     "text": "Only 80 of these will be true positives and indeed have Lyme borreliosis (positive predictive value 80/260 = 0.31 = 31 %). The other 180 positively tested patients are the false positives and they will be treated for Lyme while they have another cause of disease, thus delaying their final diagnosis and subsequent treatment. In a two-tiered approach, all positives will be tested with immunoblot after ELISA. These numbers also mean that we will have 720 + 20 = 740 negative test results, of which 3 % (negative predictive value 720/740 = 0.97 = 97 %) will have Lyme borreliosis despite a negative test result. These are the false-negatives, their diagnosis will be missed or delayed. Although calculations like these may provide insight in the consequences of testing, they should be taken with caution. The results were overall very heterogeneous and may depend on patient characteristics. Also, the prevalence of 10 % may not be realistic.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -920,14 +920,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Discussion",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c26",
+    "chunk_id": "lyme_disease_001_c26",
     "text": "The results were overall very heterogeneous and may depend on patient characteristics. Also, the prevalence of 10 % may not be realistic. In our review, we found prevalences ranging from 1 to 79 % for unspecified Lyme borreliosis and ranging from 12 to 62 % for neuroborreliosis. Appendix 3 shows some more of these inferences, for different prevalence situations and different sensitivity and specificity of the tests. Limitations of this review are the representativeness of the results, the poor reporting of study characteristics and the lack of a true gold standard. Most studies included were case-control studies. These may be easier to perform in a laboratory setting than cross-sectional designs, but their results are less representative for clinical practice. Also the immunoblot was not analysed in a way that is representative for practice: most immunoblots were analysed on the same samples as the ELISAs, while in practice immunoblots will only be used on ELISA-positive samples. EM patients formed the second largest group of patients in our review.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -957,14 +957,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Discussion",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c27",
+    "chunk_id": "lyme_disease_001_c27",
     "text": "EM patients formed the second largest group of patients in our review. The low sensitivity in this group of patients supports the guidelines stating that serological testing in EM patients is not recommended [86]. On the other hand, patients with atypical manifestations were not included in the reviewed studies, while this group of patients does form a diagnostic problem [87, 88]. A more detailed analyses of the included patients’ characteristics and test characteristics would have been nice, but these characteristics were poorly reported. This is also reflected in the Quality-assessment table, with many ‘unclear’ scores, even for more recent studies. Authors may not have been aware of existing reporting guidelines and we therefore suggest that authors of future studies use the STAndards for Reporting Diagnostic accuracy studies (STARD) to guide their manuscript [89]. There is no gold standard for Lyme borreliosis, so we used the reference standard as presented by the authors of the included studies. This may have added to the amount of variation.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -994,14 +994,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Discussion",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c28",
+    "chunk_id": "lyme_disease_001_c28",
     "text": "This may have added to the amount of variation. Furthermore, many of the investigated studies included the results from antibody testing in their definition of Lyme borreliosis, which may have overestimated sensitivity and specificity. However, this was not proven in our heterogeneity analyses. The performance of diagnostic tests very much depends on the population in which the test is being used. Future studies should therefore be prospective cross-sectional studies including a consecutive sample of presenting patients, preferably stratified by the situation in which the patient presents (e.g. a tertiary Lyme referral center versus general practice). The lack of a gold standard may be solved by using a reference standard with multiple levels of certainty [90, 91]. Although this will diminish contrasts and will thus be more difficult to interpret, it does reflect practice in a better way. Other solutions may be more statistically derived approaches like latent class analysis, use of expert-opinion and/or response to treatment [92]. However, more and better designed diagnostic accuracy studies will not improve the accuracy of these tests themselves.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -1031,14 +1031,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Discussion",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c29",
+    "chunk_id": "lyme_disease_001_c29",
     "text": "However, more and better designed diagnostic accuracy studies will not improve the accuracy of these tests themselves. They will provide more valid estimates of the tests’ accuracy, including predictive values, but the actual added value of testing for Lyme disease requires information about subsequent actions and consequences of testing. If the final diagnosis or referral pattern is solely based upon the clinical picture, then testing patients for Lyme may have no added value. In that case, a perfect test may still be useless if it does not change clinical management decisions [93]. On the other hand, imperfect laboratory tests may still be valuable for clinical decision making if subsequent actions improve the patient’s outcomes. The challenge for clinicians is to deal with the uncertainties of imperfect laboratory tests.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -1068,14 +1068,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Discussion",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c30",
+    "chunk_id": "lyme_disease_001_c30",
     "text": "We found no evidence that ELISAs have a higher or lower accuracy than immunoblots; neither did we find evidence that two-tiered approaches have a better performance than single tests. However, the data in this review do not provide sufficient evidence to make inferences about the value of the tests for clinical practice. Valid estimates of sensitivity and specificity for the tests as used in practice require well-designed cross-sectional studies, done in the relevant clinical patient populations. Furthermore, information is needed about the prevalence of Lyme borreliosis among those tested for it and the clinical consequences of a negative or positive test result. The latter depend on the place of the test in the clinical pathway and the clinical decisions that are driven by the test results or not. Future research should primarily focus on more targeted clinical validations of these tests and research into appropriate use of these tests.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -1105,14 +1105,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Conclusions",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c31",
+    "chunk_id": "lyme_disease_001_c31",
     "text": "The raw data (data-extraction results, reference lists, statistical codes) will be provided upon request by ECDC (info@ecdc.europa.eu).",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -1142,14 +1142,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Availability of data and materials",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c32",
+    "chunk_id": "lyme_disease_001_c32",
     "text": "Was a case-control design avoided? ○ Case-control designs, especially if they include healthy controls, possess a high risk of bias. Therefore, all case-control studies are automatically judged to be of high risk of bias in the overall judgment.; Was a consecutive or random sample of patients enrolled?; Did the study avoid inappropriate exclusions?; Overall judgment: ○ Case-control studies always scored as high risk of bias ○ Cross-sectional studies only low risk of bias if other two signalling questions are scored as ‘yes’. If one of them is scored ‘no’, then high risk of bias. Otherwise unclear.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -1179,14 +1179,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Risk of bias, signalling questions",
     "parent": "Patient selection"
   },
   {
-    "chunk_id": "paper_001_c33",
+    "chunk_id": "lyme_disease_001_c33",
     "text": "This is about the extent to which the patients (both cases and controls) included in this study are representative for the patients in which these serology tests will be used. Is there concern that the included patients do not match the review question? ○ All case-control studies automatically high concern. All cross-sectional studies automatically low concern, except when no clear case-definition has been used. ○ One study only included facial palsy patients → high concern: applicable, but not representative group ○ One study only included arthritic patients → high concern: applicable, but not representative group",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -1216,14 +1216,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Concerns regarding applicability",
     "parent": "Patient selection"
   },
   {
-    "chunk_id": "paper_001_c34",
+    "chunk_id": "lyme_disease_001_c34",
     "text": "Were the index test results interpreted without knowledge of the results of the reference standard?; If a threshold was used, was it pre-specified? By selecting the cut-off value with the highest sensitivity and/or specificity, researchers artificially optimize the accuracy of their tests, which also may cause overestimation of sensitivity and specificity. ○ The first question is very poorly reported, almost in all cases ‘unclear’. ○ The second question varies. Sometimes the authors state that 95% value of the controls is used as threshold, or that the mean of the controls plus 2 or 3 SD is used as threshold. Both variation have been scored as post-hoc.; Overall judgment: ○ if the second question is scored as ‘yes’, then automatically overall judgement also scored as yes. This is because the first question will usually be not reported or scored as ‘yes’. ○ If the latter is scored as unclear, then overall also unclear; if latter is scored as no, then overall high risk.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -1253,14 +1253,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Risk of bias, signalling questions",
     "parent": "Index test"
   },
   {
-    "chunk_id": "paper_001_c35",
+    "chunk_id": "lyme_disease_001_c35",
     "text": "This is about the extent to which the index test evaluated is representative for the tests that will be used in practice. Is there concern that the index test, its conduct or interpretation differ from the review question? ○ All in-house tests automatically scored as high concern Risk of bias and concerns regarding applicability should be scored for each test separately.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -1290,14 +1290,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Concerns regarding applicability",
     "parent": "Index test"
   },
   {
-    "chunk_id": "paper_001_c36",
+    "chunk_id": "lyme_disease_001_c36",
     "text": "Was there an appropriate interval between index test(s) and reference standard? ○ We expected that in the cross-sectional designs most tests would have been done around the same moment as the final diagnosis was being made. If we suspect the patient status may have changed between the time of testing and the moment of diagnosis, then we scored this as ‘no’. ○ For case-control studies this was always scored as ‘no’, as the determination of serology was always done after the case-definitions were defined, sometimes a long time after that was done.; Did patients receive the same reference standard? ○ Were scored as ‘no’ for all case-control studies, as the controls were often from different settings, different departments and had to fulfil different criteria.; Were all patients included in the analysis? ○ This was also scored ‘no’ for all case-control studies.; Overall judgment: ○ Case-control studies always scored high risk of bias ○ For cross-sectional studies, we scored low risk of bias if all three questions were scored ‘yes’ and high risk of bias if at least one of them was scored ‘no’. All other cases were scored ‘unclear’.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -1327,14 +1327,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Risk of bias regarding flow and timing, signalling questions",
     "parent": "Appendix 2 Data quality"
   },
   {
-    "chunk_id": "paper_001_c37",
+    "chunk_id": "lyme_disease_001_c37",
     "text": "The Tables A to D show the absolute numbers of true positives, false positives, false negatives and true negatives for a hypothetical cohort of 1000 patients. These numbers should be taken with caution, as the results were overall very heterogeneous. Furthermore, although the prevalence does not influence estimates of sensitivity and specificity extensively in our calculation, this assumption requires further elaboration. To take into account variation in results and uncertainty, the calculations are made for different scenarios and presented in Tables A to D. Table A: varying sensitivities, at a fixed specificity of 95 % and a fixed prevalence of 10 %; Table B: varying sensitivities, at a more realistic fixed specificity of 80 % and a fixed prevalence of 10 %; Table C: varying specificities, at a fixed sensitivity of 80 % and a fixed prevalence of 10 %; Table D: sensitivity of 80 % and a specificity of 80 % and 95 %, at varying prevalence.",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -1364,14 +1364,14 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Appendix 3 Possible ranges in post-test probability",
     "parent": ""
   },
   {
-    "chunk_id": "paper_001_c38",
+    "chunk_id": "lyme_disease_001_c38",
     "text": "M. M. G. Leeflang, Email: m.m.leeflang@amc.uva.nl C. W. Ang, Email: w.ang@vumc.nl J. Berkhout, Email: h.berkhout@cwz.nl H. A. Bijlmer, Email: henkbijlmer@me.com W. Van Bortel, Email: Wim.vanBortel@ecdc.europa.eu A. H. Brandenburg, Email: a.brandenburg@izore.nl N. D. Van Burgel, Email: n.vanburgel@hagaziekenhuis.nl A. P. Van Dam, Email: a.p.vandam@olvg.nl R. B. Dessau, Email: ramd@regionsjaelland.dk V. Fingerle, Email: Volker.Fingerle@lgl.bayern.de J. W. R. Hovius, Email: Lyme@amc.uva.nl B. Jaulhac, Email: jaulhac@unistra.fr B. Meijer, Email: b.c.meijer@infectielab.nl W. Van Pelt, Email: wilfrid.van.pelt@rivm.nl J. F. P. Schellekens, Email: j.schellekens@infectielab.nl R. Spijker, Email: r.spijker-2@umcutrecht.nl F. F. Stelma, Email: foekje.stelma@radboudumc.nl G. Stanek, Email: gerold.stanek@meduniwien.ac.at F. Verduyn-Lunel, Email: f.m.verduynlunel@umcutrecht.nl H. Zeller, Email: Herve.Zeller@ecdc.europa.eu H. Sprong, Email: hein.sprong@rivm.nl",
-    "paper_id": "paper_001",
+    "paper_id": "lyme_disease_001",
     "title": "The diagnostic accuracy of serological tests for Lyme borreliosis in Europe: a systematic review and meta-analysis",
     "authors": [
       "Leeflang MMG",
@@ -1401,7 +1401,7 @@
     "doi": "10.1186/s12879-016-1468-4",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4807538/",
     "license": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License ( http://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted use, d",
-    "disease": "",
+    "disease": "lyme_disease",
     "heading": "Contributor Information",
     "parent": ""
   }
