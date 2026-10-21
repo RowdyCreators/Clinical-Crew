@@ -1,0 +1,22 @@
+{
+  "paper_id": "diabetes_003",
+  "title": "Characterization of Symptoms and Symptom Clusters for Type 2 Diabetes Using a Large Nationwide Electronic Health Record Database",
+  "authors": [
+    "Brady V",
+    "Whisenant M",
+    "Wang X",
+    "Ly VK",
+    "Zhu G",
+    "Aguilar D",
+    "Wu H"
+  ],
+  "year": 2022,
+  "journal": "Diabetes Spectrum : A Publication of the American Diabetes Association",
+  "doi": "10.2337/ds21-0064",
+  "pmcid": "PMC9160545",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9160545/",
+  "license": "https://www.diabetesjournals.org/content/license",
+  "abstract": "OBJECTIVE: A variety of symptoms may be associated with type 2 diabetes and its complications. Symptoms in chronic diseases may be described in terms of prevalence, severity, and trajectory and often co-occur in groups, known as symptom clusters, which may be representative of a common etiology. The purpose of this study was to characterize type 2 diabetes–related symptoms using a large nationwide electronic health record (EHR) database. Methods: We acquired the Cerner Health Facts, a nationwide EHR database. The type 2 diabetes cohort (n = 1,136,301 patients) was identified using a rule-based phenotype method. A multistep procedure was then used to identify type 2 diabetes–related symptoms based on International Classification of Diseases, 9th and 10th revisions, diagnosis codes. Type 2 diabetes–related symptoms and co-occurring symptom clusters, including their temporal patterns, were characterized based the longitudinal EHR data. Results: Patients had a mean age of 61.4 years, 51.2% were female, and 70.0% were White. Among 1,136,301 patients, there were 8,008,276 occurrences of 59 symptoms. The most frequently reported symptoms included pain, heartburn, shortness of breath, fatigue, and swelling, which occurred in 21–60% of the patients. We also observed over-represented type 2 diabetes symptoms, including difficulty speaking, feeling confused, trouble remembering, weakness, and drowsiness/sleepiness. Some of these are rare and difficult to detect by traditional patient-reported outcomes studies. Conclusion: To the best of our knowledge, this is the first study to use a nationwide EHR database to characterize type 2 diabetes–related symptoms and their temporal patterns. Fifty-nine symptoms, including both over-represented and rare diabetes-related symptoms, were identified.",
+  "sections": [],
+  "references": []
+}
