@@ -1,40 +1,32 @@
-"""
-Symptom differential-support RAG backend (simple version).
+"""Run from the project root: python -m uvicorn Backend.main:app --reload."""
+from contextlib import asynccontextmanager
+from pathlib import Path
+from fastapi import FastAPI
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
+from Backend.api.ingestion import router
+from Backend.api.embedding import router as embedding_router
+from Backend.services.jobs import Jobs
+from Backend.services.embeddings import close_clients
 
-Setup (Python 3.12 recommended):
-    pip install fastapi uvicorn chromadb groq pydantic python-dotenv
-    set GROQ_API_KEY=your_key        (Windows cmd; use `export` on macOS/Linux)
-    uvicorn main:app --reload
+STATIC_DIR = Path(__file__).parent / 'static'
 
-Flow: red-flag check -> retrieve from Chroma -> grounded LLM call -> structured JSON.
-"""
+@asynccontextmanager
+async def lifespan(app):
+    app.state.jobs = Jobs()
+    yield
+    app.state.jobs.close()
+    close_clients()
 
-import json
-import os
-from typing import Literal
+app = FastAPI(title='Clinical Crew XML Ingestion', version='0.2.0', lifespan=lifespan)
+app.include_router(router)
+app.include_router(embedding_router)
+app.mount('/static', StaticFiles(directory=STATIC_DIR), name='static')
 
-import chromadb
-from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field
+@app.get('/', include_in_schema=False)
+def upload_page():
+    return FileResponse(STATIC_DIR / 'index.html')
 
-# ---------------------------------------------------------------------------
-# App + clients
-# ---------------------------------------------------------------------------
-app = FastAPI(title="Symptom RAG API", version="0.1.0")
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # React dev servers
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-
-# ---------------------------------------------------------------------------
-# Routes
-# ---------------------------------------------------------------------------
-@app.get("/health")
+@app.get('/health')
 def health():
-    return {"status": "ok"}
+    return {'status': 'ok'}
