@@ -2,7 +2,7 @@
 
 Clinical Crew prepares medical research papers for retrieval. Upload one PMC/JATS XML article and the backend parses it, creates chunks, generates Gemini embeddings, and stores the records in ChromaDB.
 
-This version implements document ingestion. A user-message/chat endpoint, answer generation, and clinical accuracy evaluation are separate work.
+This version implements document ingestion and a symptom chat: a React frontend sends the user's description to `/api/v1/chat`, which retrieves the closest paper excerpts from ChromaDB and asks a Gemini model for a cited, non-definitive answer. Clinical accuracy evaluation is separate work.
 
 ## Run the upload page
 
@@ -26,6 +26,22 @@ Use the same category name, including case, for an existing paper. Changing an a
 
 The page is lightweight HTML/CSS/JavaScript served by FastAPI. There is no separate frontend install or build step.
 
+## Run the chat frontend
+
+The chat UI is a React + Vite + TypeScript app in `Frontend/`. Start the backend first (see above, port 8010), then in a second terminal:
+
+```powershell
+cd Frontend
+npm install
+npm run dev
+```
+
+Open **http://localhost:5173**. The Vite dev server proxies `/api` to `http://127.0.0.1:8010`; set `VITE_API_TARGET` to use another backend address. `npm run build` type-checks and writes a production build to `Frontend/dist/`.
+
+Type a description of the symptoms and press Enter (Shift+Enter adds a new line). Each answer cites numbered excerpts such as [1]; select a citation or **Show research excerpts** to see the paper, section, and similarity score behind it. The **Category** menu restricts retrieval to one indexed category. Earlier turns of the conversation are sent with each message so follow-up questions keep their context; **New chat** clears them.
+
+Answers are decision support grounded in the indexed papers, not a diagnosis.
+
 ## Environment configuration
 
 Keep the API key in the root `.env` file. `.env.example` documents the settings; do not overwrite an existing `.env`.
@@ -34,6 +50,8 @@ Keep the API key in the root `.env` file. `.env.example` documents the settings;
 GEMINI_APIKEY=your-google-gemini-api-key
 EMBEDDING_MODEL=gemini-embedding-2
 EMBEDDING_DIMS=768
+# Model that writes chat answers; uses the same Gemini key
+ANSWER_MODEL=gemini-3.5-flash-lite
 ```
 
 `GEMINI_API_KEY` and `GOOGLE_API_KEY` are also accepted. For credentials, the root `.env` takes precedence, followed by `Backend/.env`, then environment variables. Each new embedding client rereads the files, so saving a corrected key takes effect on the next request without restarting. Other settings, including model and dimensions, are loaded at startup and require a restart. The answering-model API key is not needed for XML ingestion.
@@ -76,6 +94,8 @@ Clinical-Crew/
       embeddings.py         Gemini calls, validation, Chroma access, search helpers
       ingestion.py          Coordinates the complete pipeline
       jobs.py               One local worker and JSON progress files
+    api/chat.py             Chat and category endpoints
+    services/chat.py        Retrieval + grounded answer generation
     static/
       index.html            Upload screen
       style.css             Page styling
@@ -83,6 +103,8 @@ Clinical-Crew/
     src/                    Compatibility entry points for the old stage scripts
     tests/
       test_ingestion.py     Isolated pipeline and API checks
+      test_chat.py          Chat endpoint checks with mocked retrieval/generation
+  Frontend/                 React + Vite + TypeScript chat UI
   data/
     raw/<category>/         Original XML papers
     processed/<category>/   Parsed paper JSON
@@ -145,6 +167,8 @@ The upload endpoints currently have no authentication and are intended to stay o
 | POST | `/api/v1/embedding/check` | Test an embedding request without storing anything |
 | POST | `/api/v1/ingestions` | Multipart `file` and `disease`; returns HTTP 202 and a job |
 | GET | `/api/v1/ingestions/{job_id}` | Progress, safe error, or result |
+| POST | `/api/v1/chat` | JSON `message`, optional `history`, `disease`, `top_k`; returns `answer` and cited `sources` |
+| GET | `/api/v1/chat/categories` | Categories present in the vector database |
 
 ## Validation
 

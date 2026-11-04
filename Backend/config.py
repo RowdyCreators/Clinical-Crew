@@ -10,6 +10,7 @@ DATA_DIR = Path(_settings.get('DATA_DIR', str(ROOT / 'data'))).resolve()
 CHROMA_DIR = DATA_DIR / 'chroma'
 EMBEDDING_MODEL = _settings.get('EMBEDDING_MODEL', 'gemini-embedding-2')
 EMBEDDING_DIMS = int(_settings.get('EMBEDDING_DIMS', '768'))
+ANSWER_MODEL = _settings.get('ANSWER_MODEL', 'gemini-3.5-flash-lite')
 MAX_XML_BYTES = 10 * 1024 * 1024
 MAX_CHUNKS = 2000
 PIPELINE_VERSION = 'xml-v1'
