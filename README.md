@@ -88,11 +88,15 @@ Clinical-Crew/
     ingest.py               Complete pipeline CLI
     api/
       ingestion.py          Upload and job-status routes
+      embedding.py          Embedding connection diagnostic route
     services/
       parser.py             PMC/JATS XML -> paper dictionary
       chunker.py            Paper -> section-aware chunks
       embeddings.py         Gemini calls, validation, Chroma access, search helpers
-      ingestion.py          Coordinates the complete pipeline
+      ingestion.py          Coordinates the complete pipeline stages
+      ingestion_errors.py   Shared input validation and ingestion errors
+      paper_identity.py     Stable paper IDs and duplicate/conflict checks
+      artifact_store.py     Atomic artifact writes, JSONL rebuild, and rollback
       jobs.py               One local worker and JSON progress files
     api/chat.py             Chat and category endpoints
     services/chat.py        Retrieval + grounded answer generation
@@ -117,6 +121,13 @@ Clinical-Crew/
   requirements.txt          Pinned runtime dependencies
   requirements-dev.txt      Test dependencies
 ```
+
+The API and CLI both call `services/ingestion.py`. It keeps the processing order
+visible while delegating identity checks to `paper_identity.py` and filesystem
+publication to `artifact_store.py`. Parsing, chunking, and embedding remain in
+their own service modules. The scripts under `src/` are compatibility entry
+points for the earlier separate pipeline stages; use the API or CLI for the
+complete ingestion workflow.
 
 ## Where the chunks and embeddings are stored
 
