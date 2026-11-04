@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clinical Crew · Paper library</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/upload.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><span class="brand">CC</span><div><p class="eyebrow">Clinical Crew</p><h1>Add a research paper</h1></div></header>
+    <p class="intro">Upload a PMC/JATS XML article. We will extract its text, create searchable chunks, and store their embeddings in your paper library.</p>
+    <section class="card">
+      <button id="check-connection" type="button">Check Gemini connection</button>
+      <p id="connection-status" role="status">Test embedding access with a small probe before processing a new paper. Nothing is saved to your library.</p>
+    </section>
+    <section class="card">
+      <form id="upload-form">
+        <label for="disease">Disease or category</label>
+        <input id="disease" name="disease" list="categories" required maxlength="64" pattern="[A-Za-z0-9][A-Za-z0-9_-]{0,63}" placeholder="e.g. lyme_disease">
+        <datalist id="categories"><option value="Alzheimer"><option value="diabetes"><option value="lyme_disease"><option value="asthma"></datalist>
+        <p class="hint">Use an existing category name or enter a new one. Use underscores instead of spaces.</p>
+        <label for="file">Article XML</label>
+        <input id="file" name="file" type="file" accept=".xml,application/xml,text/xml" required>
+        <p class="hint">One PMC/JATS XML file, up to 10 MB. Keep the same category when re-uploading a paper.</p>
+        <button id="submit" type="submit">Upload and process</button>
+      </form>
+    </section>
+    <section id="progress-panel" class="card" hidden aria-live="polite">
+      <p class="eyebrow">Processing progress</p><h2 id="status">Queued</h2>
+      <progress id="progress" max="100"></progress><p id="detail"></p>
+      <p id="result"></p><button id="resume" type="button" hidden>Check job again</button>
+    </section>
+    <p id="error" class="error" role="alert" hidden></p>
+    <footer>Already indexed papers are skipped. Existing records are preserved when an upload conflicts.</footer>
+  </main>
+</body>
+</html>
