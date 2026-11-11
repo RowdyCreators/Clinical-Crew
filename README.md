@@ -47,7 +47,7 @@ Answers are decision support grounded in the indexed papers, not a diagnosis.
 Keep the API key in the root `.env` file. `.env.example` documents the settings; do not overwrite an existing `.env`.
 
 ```dotenv
-GEMINI_APIKEY=your-google-gemini-api-key
+GEMINI_API_KEY=your-google-gemini-api-key
 EMBEDDING_MODEL=gemini-embedding-2
 EMBEDDING_DIMS=768
 # Model that writes chat answers; uses the same Gemini key
@@ -195,7 +195,6 @@ A successful ingestion establishes that the document was processed and indexed. 
 
 ## Contributors
 
-- Muhammad Baibars Zain Ul Abideen - Alzheimer's research
-- Shiwin Fernando - Lyme disease research, backend/AI
-- Vinh Thanh Nguyen - diabetes research
-- Salvado - asthma research
+- Muhammad Baibars Zain Ul Abideen
+- Shiwin Fernando
+- Vinh Thanh Nguyen
