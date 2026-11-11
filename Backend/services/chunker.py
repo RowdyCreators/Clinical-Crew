@@ -4,14 +4,14 @@ Chunk cleaned PubMed paper JSON files for a RAG pipeline.
 Usage (from project root):
     python Backend/src/chunk_papers.py                       # every disease folder
     python Backend/src/chunk_papers.py lyme_disease asthma   # just these diseases
-    python Backend/src/chunk_papers.py --processed-dir data/processed --output-dir data/chunks
+    python Backend/src/chunk_papers.py --processed-dir <DATA_DIR>/processed --output-dir <DATA_DIR>/chunks
 
-Input : data/processed/<disease>/*.json, one JSON per paper (schema: paper_id,
+Input : <DATA_DIR>/processed/<disease>/*.json, one JSON per paper (schema: paper_id,
         title, authors, year, journal, doi, pmcid, url, license, abstract,
         sections[{heading, parent, text}])
-Output: data/chunks/<disease>/<paper_id>.json          (chunks for that paper)
-        data/chunks/<disease>/<disease>_chunks.jsonl   (every chunk for that disease)
-        data/chunks/all_chunks.jsonl                   (every chunk, all diseases)
+Output: <DATA_DIR>/chunks/<disease>/<paper_id>.json          (chunks for that paper)
+        <DATA_DIR>/chunks/<disease>/<disease>_chunks.jsonl   (every chunk for that disease)
+        <DATA_DIR>/chunks/all_chunks.jsonl                   (every chunk, all diseases)
 
 Each chunk's "disease" field is the folder name (e.g. "lyme_disease"), so the
 vector store can filter by disease. all_chunks.jsonl is rebuilt from every
@@ -23,6 +23,7 @@ import json
 import logging
 import re
 from pathlib import Path
+from Backend.config import DATA_DIR
 
 # ----------------------------------------------------------------------------
 # Chunk size settings (measured in WORDS; ~1.3-1.5 tokens/word for biomedical text)
@@ -243,12 +244,11 @@ def rebuild_combined(output_root: Path) -> int:
 
 
 def main() -> None:
-    root = Path(__file__).resolve().parents[2]  # project root (Backend/src/..)
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
     ap.add_argument("diseases", nargs="*",
                     help="disease folder names to chunk (default: every folder in --processed-dir)")
-    ap.add_argument("--processed-dir", type=Path, default=root / "data" / "processed")
-    ap.add_argument("--output-dir", type=Path, default=root / "data" / "chunks")
+    ap.add_argument("--processed-dir", type=Path, default=DATA_DIR / "processed")
+    ap.add_argument("--output-dir", type=Path, default=DATA_DIR / "chunks")
     args = ap.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")

@@ -14,6 +14,7 @@ import sys
 import defusedxml.ElementTree as ET
 from pathlib import Path
 from typing import Optional
+from Backend.config import DATA_DIR
 
 # The parser lives in Backend/services, two levels below the project root.
 PROJECT_DIR = Path(__file__).resolve().parents[2]
@@ -331,11 +332,12 @@ class Parser:
 
 
 def run_all_diseases(only: Optional[list[str]] = None,
-                     raw_subfolder: str = "data/raw",
-                     processed_subfolder: str = "data/processed") -> dict[str, list[Path]]:
-    """Parse every disease folder under data/raw/ into data/processed/<disease>/.
+                     raw_subfolder: str = "raw",
+                     processed_subfolder: str = "processed") -> dict[str, list[Path]]:
+    """Parse every disease folder under DATA_DIR/raw into DATA_DIR/processed.
     Pass `only` (folder names) to limit it to specific diseases."""
-    raw_root = PROJECT_DIR / raw_subfolder
+    data_root = DATA_DIR
+    raw_root = data_root / raw_subfolder
     folders = sorted(p for p in raw_root.iterdir() if p.is_dir())
     if only:
         wanted = set(only)
@@ -347,7 +349,8 @@ def run_all_diseases(only: Optional[list[str]] = None,
     results: dict[str, list[Path]] = {}
     for folder in folders:
         parser = Parser(xml_subfolder=f"{raw_subfolder}/{folder.name}",
-                        output_subfolder=f"{processed_subfolder}/{folder.name}")
+                        output_subfolder=f"{processed_subfolder}/{folder.name}",
+                        project_dir=data_root)
         try:
             files = parser.run()
         except FileNotFoundError:
@@ -362,6 +365,6 @@ def run_all_diseases(only: Optional[list[str]] = None,
 
 
 if __name__ == "__main__":
-    # python parse_papers.py                    -> every folder in data/raw/
+    # python parse_papers.py                    -> every folder in DATA_DIR/raw/
     # python parse_papers.py lyme_disease asthma -> just those folders
     run_all_diseases(only=sys.argv[1:] or None)
