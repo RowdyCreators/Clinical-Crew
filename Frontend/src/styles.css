@@ -274,6 +274,100 @@ button:disabled {
   font-weight: 600;
 }
 
+/* Follow-up questions that narrow several possible conditions down to one */
+.clarify {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-2);
+}
+
+.clarify ol {
+  margin: 0;
+  padding-left: 1.3em;
+}
+
+.clarify li + li {
+  margin-top: 12px;
+}
+
+.clarify li p {
+  margin: 0 0 6px;
+  font-weight: 600;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.options button {
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.options button:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.options button.selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.options button:disabled {
+  cursor: default;
+}
+
+.options button:disabled:not(.selected) {
+  opacity: 0.6;
+}
+
+.clarify-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.clarify-actions .ghost {
+  text-transform: none;
+  cursor: pointer;
+}
+
+.clarify-actions span {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.primary {
+  padding: 7px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--accent);
+  color: var(--accent-text);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
 /* Typing indicator */
 .typing {
   display: flex !important;

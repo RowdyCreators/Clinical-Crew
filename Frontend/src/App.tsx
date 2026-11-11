@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { fetchCategories, sendMessage, type Source, type Turn } from './api'
+import { fetchCategories, sendMessage, type ClarifyingQuestion, type Source, type Turn } from './api'
 import Composer from './components/Composer'
 import MessageBubble from './components/MessageBubble'
 
@@ -9,6 +9,12 @@ export interface Message {
   content: string
   sources?: Source[]
   error?: boolean
+  /** Set when the assistant asked follow-up questions to tell several possible diseases apart. */
+  clarification?: {
+    candidates: string[]
+    questions: ClarifyingQuestion[]
+    round: number
+  }
 }
 
 const SUGGESTIONS = [
@@ -22,6 +28,19 @@ const MAX_TURN_CHARS = 8000
 
 let nextId = 0
 const newId = () => `m${Date.now()}-${nextId++}`
+
+const SKIP_MESSAGE = 'Please skip the questions and show me the possible conditions now.'
+
+// The questions are shown as buttons, so add them to the text the model sees in later turns.
+function turnContent(m: Message) {
+  const questions = m.clarification?.questions ?? []
+  const text = questions.length
+    ? `${m.content}\n\n${questions
+        .map((q, i) => `${i + 1}. ${q.question}${q.options.length ? ` (${q.options.join(' / ')})` : ''}`)
+        .join('\n')}`
+    : m.content
+  return text.slice(0, MAX_TURN_CHARS)
+}
 
 export default function App() {
   const [messages, setMessages] = useState<Message[]>([])
@@ -39,7 +58,11 @@ export default function App() {
     endRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' })
   }, [messages, pending])
 
-  async function submit(text: string) {
+  // The open follow-up questions, if the latest assistant reply asked any.
+  const lastReply = [...messages].reverse().find((m) => m.role === 'assistant' && !m.error)
+  const openClarification = lastReply?.clarification ? lastReply : undefined
+
+  async function submit(text: string, { clarify = true }: { clarify?: boolean } = {}) {
     const message = text.trim()
     if (!message || pending) return
 
@@ -47,7 +70,8 @@ export default function App() {
     const history: Turn[] = messages
       .filter((m) => !m.error)
       .slice(-MAX_HISTORY)
-      .map((m) => ({ role: m.role, content: m.content.slice(0, MAX_TURN_CHARS) }))
+      .map((m) => ({ role: m.role, content: turnContent(m) }))
+    const pendingCase = openClarification?.clarification
 
     setMessages((prev) => [...prev, { id: newId(), role: 'user', content: message }])
     setPending(true)
@@ -56,12 +80,32 @@ export default function App() {
 
     try {
       const result = await sendMessage(
-        { message, history, disease: category || null },
+        {
+          message,
+          history,
+          disease: category || null,
+          candidates: pendingCase?.candidates ?? [],
+          clarify_round: pendingCase?.round ?? 0,
+          clarify,
+        },
         controller.signal,
       )
       setMessages((prev) => [
         ...prev,
-        { id: newId(), role: 'assistant', content: result.answer, sources: result.sources },
+        {
+          id: newId(),
+          role: 'assistant',
+          content: result.answer,
+          sources: result.sources,
+          clarification:
+            result.kind === 'clarification'
+              ? {
+                  candidates: result.candidates,
+                  questions: result.questions,
+                  round: result.clarify_round,
+                }
+              : undefined,
+        },
       ])
     } catch (error) {
       if (controller.signal.aborted) return
@@ -137,7 +181,13 @@ export default function App() {
           )}
 
           {messages.map((m) => (
-            <MessageBubble key={m.id} message={m} />
+            <MessageBubble
+              key={m.id}
+              message={m}
+              active={m === openClarification && m === messages[messages.length - 1] && !pending}
+              onAnswer={(text) => submit(text)}
+              onSkip={() => submit(SKIP_MESSAGE, { clarify: false })}
+            />
           ))}
 
           {pending && (

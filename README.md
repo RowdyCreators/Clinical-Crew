@@ -45,6 +45,8 @@ Open **http://localhost:5173** for chat and **http://localhost:5173/upload** for
 
 Type a description of the symptoms and press Enter (Shift+Enter adds a new line). Each answer cites numbered excerpts such as [1]; select a citation or **Show research excerpts** to see the paper, section, and similarity score behind it. The **Category** menu restricts retrieval to one indexed category. Earlier turns of the conversation are sent with each message so follow-up questions keep their context; **New chat** clears them.
 
+If the first description fits more than one indexed disease, Clinical Crew asks up to three follow-up questions to tell them apart before answering. Pick an option for each question and select **Send answers**, type the answers instead, or select **Skip questions**. The backend retrieves a broad set of excerpts, and a triage step decides which of the retrieved diseases still fit. Only indexed categories can be candidates. Later rounds search only the remaining candidates. After two rounds, or when the symptoms look urgent, it answers right away. Choosing a single **Category** skips this step.
+
 Answers are decision support grounded in the indexed papers, not a diagnosis.
 
 ## Environment configuration

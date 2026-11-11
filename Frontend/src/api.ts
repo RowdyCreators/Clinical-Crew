@@ -15,10 +15,21 @@ export interface Source {
   excerpt: string
 }
 
+export interface ClarifyingQuestion {
+  question: string
+  options: string[]
+}
+
 export interface ChatResponse {
   answer: string
   model: string
   sources: Source[]
+  /** 'clarification' when the symptoms fit several diseases and follow-up questions are asked. */
+  kind: 'answer' | 'clarification'
+  /** Indexed diseases still in play. */
+  candidates: string[]
+  questions: ClarifyingQuestion[]
+  clarify_round: number
 }
 
 export interface Turn {
@@ -31,6 +42,9 @@ export interface ChatRequest {
   history: Turn[]
   disease?: string | null
   top_k?: number
+  candidates?: string[]
+  clarify_round?: number
+  clarify?: boolean
 }
 
 async function errorMessage(response: Response): Promise<string> {
