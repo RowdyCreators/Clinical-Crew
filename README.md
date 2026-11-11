@@ -110,6 +110,7 @@ Clinical-Crew/
       test_chat.py          Chat endpoint checks with mocked retrieval/generation
   Frontend/                 React + Vite + TypeScript chat UI
   data/
+    README.md               Inputs, generated artifacts, and backup guidance
     raw/<category>/         Original XML papers
     processed/<category>/   Parsed paper JSON
     chunks/<category>/      Per-paper chunk JSON and category JSONL
@@ -143,7 +144,7 @@ Each collection record contains:
 
 Chroma manages `chroma.sqlite3` and its binary index directories. Its internal SQLite `embeddings` table stores record identities; vector payloads are persisted in Chroma's operation log and vector index. Use the Chroma collection API instead of editing these internal tables.
 
-The `raw`, `processed`, and `chunks` folders are pipeline artifacts, not additional vector databases. Job progress uses JSON files rather than introducing another database.
+`raw/` contains source XML; `processed/` and `chunks/` are generated pipeline outputs, not additional vector databases. `papers.csv` is a manual catalog and is not read by the current parser or ingestion flow. See [`data/README.md`](data/README.md) for backup and regeneration guidance. Job progress uses JSON files rather than introducing another database.
 
 The starting library contains **eight papers and 363 chunks**: Alzheimer (193), diabetes (53), and Lyme disease (117). Existing paper IDs are recognized through their source URL/DOI and retained, so re-uploading those papers does not create a second copy. Counts increase when new papers are successfully ingested.
 
