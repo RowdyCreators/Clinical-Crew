@@ -28,15 +28,20 @@ The page is lightweight HTML/CSS/JavaScript served by FastAPI. There is no separ
 
 ## Run the chat frontend
 
-The chat UI is a React + Vite + TypeScript app in `Frontend/`. Start the backend first (see above, port 8010), then in a second terminal:
+The chat UI is a React + Vite + TypeScript app in `Frontend/`. Run the backend and frontend in separate terminals:
+
+1. **Terminal 1:** Start the backend with the command in [Run the upload page](#run-the-upload-page) above. Leave it running on port `8010`.
+2. **Terminal 2:** From the project root, install the locked frontend dependencies and start Vite:
 
 ```powershell
 cd Frontend
-npm install
-npm run dev
+npm.cmd ci
+npm.cmd run dev
 ```
 
-Open **http://localhost:5173**. The Vite dev server proxies `/api` to `http://127.0.0.1:8010`; set `VITE_API_TARGET` to use another backend address. `npm run build` type-checks and writes a production build to `Frontend/dist/`.
+Node.js 20.19 or later (or 22.12 or later) is required. On macOS/Linux, use `npm ci` and `npm run dev` in place of `npm.cmd`.
+
+Open **http://localhost:5173**. The Vite dev server proxies `/api` to `http://127.0.0.1:8010`; set `VITE_API_TARGET` to use another backend address. To type-check and create a production build in `Frontend/dist/`, run `npm.cmd run build` from `Frontend/` on Windows, or `npm run build` on macOS/Linux.
 
 Type a description of the symptoms and press Enter (Shift+Enter adds a new line). Each answer cites numbered excerpts such as [1]; select a citation or **Show research excerpts** to see the paper, section, and similarity score behind it. The **Category** menu restricts retrieval to one indexed category. Earlier turns of the conversation are sent with each message so follow-up questions keep their context; **New chat** clears them.
 
@@ -49,7 +54,7 @@ Answers are decision support grounded in the indexed papers, not a diagnosis.
 Keep the API key in the root `.env` file. `.env.example` documents the settings; do not overwrite an existing `.env`.
 
 ```dotenv
-GEMINI_APIKEY=your-google-gemini-api-key
+GEMINI_API_KEY=your-google-gemini-api-key
 EMBEDDING_MODEL=gemini-embedding-2
 EMBEDDING_DIMS=768
 # Model that writes chat answers; uses the same Gemini key
@@ -90,11 +95,15 @@ Clinical-Crew/
     ingest.py               Complete pipeline CLI
     api/
       ingestion.py          Upload and job-status routes
+      embedding.py          Embedding connection diagnostic route
     services/
       parser.py             PMC/JATS XML -> paper dictionary
       chunker.py            Paper -> section-aware chunks
       embeddings.py         Gemini calls, validation, Chroma access, search helpers
-      ingestion.py          Coordinates the complete pipeline
+      ingestion.py          Coordinates the complete pipeline stages
+      ingestion_errors.py   Shared input validation and ingestion errors
+      paper_identity.py     Stable paper IDs and duplicate/conflict checks
+      artifact_store.py     Atomic artifact writes, JSONL rebuild, and rollback
       jobs.py               One local worker and JSON progress files
     api/chat.py             Chat and category endpoints
     services/chat.py        Retrieval + grounded answer generation
@@ -108,6 +117,7 @@ Clinical-Crew/
       test_chat.py          Chat endpoint checks with mocked retrieval/generation
   Frontend/                 React + Vite + TypeScript chat UI
   data/
+    README.md               Inputs, generated artifacts, and backup guidance
     raw/<category>/         Original XML papers
     processed/<category>/   Parsed paper JSON
     chunks/<category>/      Per-paper chunk JSON and category JSONL
@@ -119,6 +129,58 @@ Clinical-Crew/
   requirements.txt          Pinned runtime dependencies
   requirements-dev.txt      Test dependencies
 ```
+
+The API and CLI both call `services/ingestion.py`. It keeps the processing order
+visible while delegating identity checks to `paper_identity.py` and filesystem
+publication to `artifact_store.py`. Parsing, chunking, and embedding remain in
+their own service modules. The scripts under `src/` are compatibility entry
+points for the earlier separate pipeline stages; use the API or CLI for the
+complete ingestion workflow.
+
+## Contributor map: where behavior belongs
+
+Follow these paths when changing a feature:
+
+- **Upload a paper:** [`api/ingestion.py`](Backend/api/ingestion.py) validates
+  the HTTP upload and submits it to [`services/jobs.py`](Backend/services/jobs.py).
+  The worker calls [`services/ingestion.py`](Backend/services/ingestion.py),
+  which coordinates the stages below.
+
+  ```text
+  upload route -> job worker -> ingestion coordinator
+                                -> parser -> paper identity / duplicate checks
+                                -> chunker -> embeddings + Chroma
+                                -> artifact store (raw, parsed, chunk files)
+  ```
+
+- **Change XML parsing:** edit [`services/parser.py`](Backend/services/parser.py).
+  The coordinator uses it for uploads; the batch parser also uses it to process
+  all files under `data/raw/`.
+- **Change chunk boundaries or section handling:** edit
+  [`services/chunker.py`](Backend/services/chunker.py). Both single-paper
+  ingestion and the batch chunk command use this module.
+- **Change embedding requests, vector validation, or Chroma access:** edit
+  [`services/embeddings.py`](Backend/services/embeddings.py). Ingestion uses it
+  to store vectors; chat uses it to search; the connection-check route uses it
+  to test provider access.
+- **Change duplicate rules or stable paper IDs:** edit
+  [`services/paper_identity.py`](Backend/services/paper_identity.py).
+- **Change generated files or rollback behavior:** edit
+  [`services/artifact_store.py`](Backend/services/artifact_store.py). Job status
+  JSON writes also use its atomic writer.
+- **Change chat retrieval or answer construction:** start at
+  [`api/chat.py`](Backend/api/chat.py) for HTTP validation and responses, and
+  [`services/chat.py`](Backend/services/chat.py) for retrieval, prompt
+  construction, model calls, and source formatting.
+- **Change API setup, route registration, or startup/shutdown behavior:** edit
+  [`Backend/main.py`](Backend/main.py). It creates the job worker and registers
+  the routers.
+
+The **chat path** is `api/chat.py -> services/chat.py -> services/embeddings.py`
+for retrieval, then the chat service calls the answering model and returns the
+answer with its sources. Batch scripts under `Backend/src/` call the same
+parser, chunker, and embedding services in separate steps; they do not go
+through the upload route or job worker.
 
 ## Where the chunks and embeddings are stored
 
@@ -134,7 +196,7 @@ Each collection record contains:
 
 Chroma manages `chroma.sqlite3` and its binary index directories. Its internal SQLite `embeddings` table stores record identities; vector payloads are persisted in Chroma's operation log and vector index. Use the Chroma collection API instead of editing these internal tables.
 
-The `raw`, `processed`, and `chunks` folders are pipeline artifacts, not additional vector databases. Job progress uses JSON files rather than introducing another database.
+`raw/` contains source XML; `processed/` and `chunks/` are generated pipeline outputs, not additional vector databases. `papers.csv` is a manual catalog and is not read by the current parser or ingestion flow. See [`data/README.md`](data/README.md) for backup and regeneration guidance. Job progress uses JSON files rather than introducing another database.
 
 The starting library contains **eight papers and 363 chunks**: Alzheimer (193), diabetes (53), and Lyme disease (117). Existing paper IDs are recognized through their source URL/DOI and retained, so re-uploading those papers does not create a second copy. Counts increase when new papers are successfully ingested.
 
@@ -186,7 +248,6 @@ A successful ingestion establishes that the document was processed and indexed. 
 
 ## Contributors
 
-- Muhammad Baibars Zain Ul Abideen - Alzheimer's research
-- Shiwin Fernando - Lyme disease research, backend/AI
-- Vinh Thanh Nguyen - diabetes research
-- Salvado - asthma research
+- Muhammad Baibars Zain Ul Abideen
+- Shiwin Fernando
+- Vinh Thanh Nguyen
