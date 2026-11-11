@@ -20,6 +20,10 @@ class ChatRequest(BaseModel):
     history: list[Turn] = Field(default_factory=list, max_length=12)
     disease: str | None = Field(default=None, max_length=64)
     top_k: int = Field(default=6, ge=1, le=12)
+    # Differential clarification state, echoed back from the previous clarification response.
+    candidates: list[str] = Field(default_factory=list, max_length=20)
+    clarify_round: int = Field(default=0, ge=0, le=10)
+    clarify: bool = True  # False answers right away ("Skip questions")
 
 
 @router.post('')
@@ -29,7 +33,8 @@ def send_message(body: ChatRequest):
         raise HTTPException(400, 'Describe your symptoms before sending.')
     try:
         return chat.answer(message, [t.model_dump() for t in body.history], k=body.top_k,
-                           disease=body.disease or None)
+                           disease=body.disease or None, candidates=body.candidates,
+                           clarify_round=body.clarify_round, clarify=body.clarify)
     except ChatError as error:
         raise HTTPException(400, str(error)) from None
     except (EmbeddingError, AnswerError) as error:

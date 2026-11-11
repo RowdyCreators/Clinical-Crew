@@ -223,12 +223,13 @@ def existing_ids(collection, ids: list[str]) -> set[str]:
     return found
 
 
-def search(collection, client, question: str, k: int = 5, disease: str | None = None) -> list[dict]:
-    """Example retrieval: top-k chunks, optionally restricted to one disease."""
+def search(collection, client, question: str, k: int = 5, disease: str | None = None,
+           where: dict | None = None) -> list[dict]:
+    """Top-k chunks, optionally restricted to one disease or by an explicit Chroma `where` filter."""
     res = collection.query(
         query_embeddings=[embed_query(client, question)],
         n_results=k,
-        where={"disease": disease} if disease else None,
+        where=where if where is not None else ({"disease": disease} if disease else None),
     )
     return [{"chunk_id": i, "distance": d, "text": doc, **meta}
             for i, d, doc, meta in zip(res["ids"][0], res["distances"][0],

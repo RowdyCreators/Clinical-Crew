@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Markdown from 'react-markdown'
 import type { Message } from '../App'
+import ClarifyingQuestions from './ClarifyingQuestions'
 import SourceList from './SourceList'
 
 // Turn "[2]" or "[1, 3]" citations into links that jump to the matching source cards.
@@ -12,8 +13,16 @@ function linkCitations(text: string, messageId: string, count: number) {
   })
 }
 
-export default function MessageBubble({ message }: { message: Message }) {
-  const { id, role, content, sources = [], error } = message
+interface Props {
+  message: Message
+  /** True for the latest reply while its follow-up questions are still open. */
+  active?: boolean
+  onAnswer?: (text: string) => void
+  onSkip?: () => void
+}
+
+export default function MessageBubble({ message, active = false, onAnswer, onSkip }: Props) {
+  const { id, role, content, sources = [], error, clarification } = message
   const [sourcesOpen, setSourcesOpen] = useState(false)
 
   function showSource(anchor: string) {
@@ -67,6 +76,14 @@ export default function MessageBubble({ message }: { message: Message }) {
               {linkCitations(content, id, sources.length)}
             </Markdown>
           </div>
+        )}
+        {clarification && clarification.questions.length > 0 && (
+          <ClarifyingQuestions
+            questions={clarification.questions}
+            active={active}
+            onAnswer={(text) => onAnswer?.(text)}
+            onSkip={() => onSkip?.()}
+          />
         )}
         {sources.length > 0 && (
           <SourceList
