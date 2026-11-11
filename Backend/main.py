@@ -25,7 +25,7 @@ app.include_router(embedding_router)
 app.include_router(chat_router)
 app.mount('/static', StaticFiles(directory=STATIC_DIR), name='static')
 
-@app.get('/', include_in_schema=False)
+@app.get('/upload', include_in_schema=False)
 def upload_page():
     return FileResponse(STATIC_DIR / 'index.html')
 
