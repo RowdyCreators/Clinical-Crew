@@ -130,6 +130,51 @@ their own service modules. The scripts under `src/` are compatibility entry
 points for the earlier separate pipeline stages; use the API or CLI for the
 complete ingestion workflow.
 
+## Contributor map: where behavior belongs
+
+Follow these paths when changing a feature:
+
+- **Upload a paper:** [`api/ingestion.py`](Backend/api/ingestion.py) validates
+  the HTTP upload and submits it to [`services/jobs.py`](Backend/services/jobs.py).
+  The worker calls [`services/ingestion.py`](Backend/services/ingestion.py),
+  which coordinates the stages below.
+
+  ```text
+  upload route -> job worker -> ingestion coordinator
+                                -> parser -> paper identity / duplicate checks
+                                -> chunker -> embeddings + Chroma
+                                -> artifact store (raw, parsed, chunk files)
+  ```
+
+- **Change XML parsing:** edit [`services/parser.py`](Backend/services/parser.py).
+  The coordinator uses it for uploads; the batch parser also uses it to process
+  all files under `data/raw/`.
+- **Change chunk boundaries or section handling:** edit
+  [`services/chunker.py`](Backend/services/chunker.py). Both single-paper
+  ingestion and the batch chunk command use this module.
+- **Change embedding requests, vector validation, or Chroma access:** edit
+  [`services/embeddings.py`](Backend/services/embeddings.py). Ingestion uses it
+  to store vectors; chat uses it to search; the connection-check route uses it
+  to test provider access.
+- **Change duplicate rules or stable paper IDs:** edit
+  [`services/paper_identity.py`](Backend/services/paper_identity.py).
+- **Change generated files or rollback behavior:** edit
+  [`services/artifact_store.py`](Backend/services/artifact_store.py). Job status
+  JSON writes also use its atomic writer.
+- **Change chat retrieval or answer construction:** start at
+  [`api/chat.py`](Backend/api/chat.py) for HTTP validation and responses, and
+  [`services/chat.py`](Backend/services/chat.py) for retrieval, prompt
+  construction, model calls, and source formatting.
+- **Change API setup, route registration, or startup/shutdown behavior:** edit
+  [`Backend/main.py`](Backend/main.py). It creates the job worker and registers
+  the routers.
+
+The **chat path** is `api/chat.py -> services/chat.py -> services/embeddings.py`
+for retrieval, then the chat service calls the answering model and returns the
+answer with its sources. Batch scripts under `Backend/src/` call the same
+parser, chunker, and embedding services in separate steps; they do not go
+through the upload route or job worker.
+
 ## Where the chunks and embeddings are stored
 
 **The vector database is ChromaDB, in `data/chroma/`. Its collection is `medical_papers`.**
