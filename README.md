@@ -28,15 +28,20 @@ The page is lightweight HTML/CSS/JavaScript served by FastAPI. There is no separ
 
 ## Run the chat frontend
 
-The chat UI is a React + Vite + TypeScript app in `Frontend/`. Start the backend first (see above, port 8010), then in a second terminal:
+The chat UI is a React + Vite + TypeScript app in `Frontend/`. Run the backend and frontend in separate terminals:
+
+1. **Terminal 1:** Start the backend with the command in [Run the upload page](#run-the-upload-page) above. Leave it running on port `8010`.
+2. **Terminal 2:** From the project root, install the locked frontend dependencies and start Vite:
 
 ```powershell
 cd Frontend
-npm install
-npm run dev
+npm.cmd ci
+npm.cmd run dev
 ```
 
-Open **http://localhost:5173**. The Vite dev server proxies `/api` to `http://127.0.0.1:8010`; set `VITE_API_TARGET` to use another backend address. `npm run build` type-checks and writes a production build to `Frontend/dist/`.
+Node.js 20.19 or later (or 22.12 or later) is required. On macOS/Linux, use `npm ci` and `npm run dev` in place of `npm.cmd`.
+
+Open **http://localhost:5173**. The Vite dev server proxies `/api` to `http://127.0.0.1:8010`; set `VITE_API_TARGET` to use another backend address. To type-check and create a production build in `Frontend/dist/`, run `npm.cmd run build` from `Frontend/` on Windows, or `npm run build` on macOS/Linux.
 
 Type a description of the symptoms and press Enter (Shift+Enter adds a new line). Each answer cites numbered excerpts such as [1]; select a citation or **Show research excerpts** to see the paper, section, and similarity score behind it. The **Category** menu restricts retrieval to one indexed category. Earlier turns of the conversation are sent with each message so follow-up questions keep their context; **New chat** clears them.
 
